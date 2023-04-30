@@ -16,8 +16,7 @@ namespace Proiect_Teste_Cultura_Generala
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-            //Vad daca pot sa schimb
+            Application.Run(new IntrebariGrila());
         }
     }
 }
