@@ -37,6 +37,11 @@ namespace Proiect_Teste_Cultura_Generala
 
             Intrebare q = new Intrebare();
             QuestTextBox.Text = q.GetQuestion();
+            List<string> answers = q.GetAnswers();
+            answer1.Text = answers[0];
+            answer2.Text = answers[1];
+            answer3.Text = answers[2];
+            answer4.Text = answers[3];
         }
     }
 }

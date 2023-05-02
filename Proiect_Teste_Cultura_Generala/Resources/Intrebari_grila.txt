@@ -1,129 +1,129 @@
-﻿32 intrebari //Format: Intrebare? R.Corect / R.Gresit
+﻿32 4	Intrebari Raspunsuri		//Format: Intrebare? R.Corect / R.Gresit / R.Gresit / R.Gresit 
 
 
-What is the name of Mickey Mouse's pet dog? Pluto / Goofy
-Cum se numește câinele de companie al lui Mickey Mouse? Pluto / Goofy
+What is the name of Mickey Mouse's pet dog? Pluto / Goofy / Bolt / Scooby
+Cum se numește câinele de companie al lui Mickey Mouse? Pluto / Goofy / Bolt / Scooby
 
 
-What is the last letter of the Greek alphabet? Omega / Ghamma
-Care este ultima litera a alfabetului grcesc? Omega / Gama
+What is the last letter of the Greek alphabet? Omega / Ghamma / Alpha / Theta
+Care este ultima litera a alfabetului grcesc? Omega / Gama / Alfa / Teta
 
 
-Which Disney movie has had the most sequels? Toy Story / Cars
-Care Film Disney are cele mai multe continuari? Toy Story / Cars
+Which Disney movie has had the most sequels? Toy Story / Cars / Monsters, Inc. / The Incredibles
+Care Film Disney are cele mai multe continuari? Toy Story / Cars / Monsters, Inc. / The Incredibles
 
 
-What colour is Lightning McQueen in “Cars”? Red / Blue
-Ce culoare are Lightning McQueen in filmul "Cars"? Rosu / Albastru
+What colour is Lightning McQueen in “Cars”? Red / Blue / Yellow / Green
+Ce culoare are Lightning McQueen in filmul "Cars"? Rosu / Albastru / Galben / Verde
 
 
-How many years did the Hundred Years’ War last? 116 / 100
-Cati ani a durat razboiul de 100 de ani? 116 / 100
+How many years did the Hundred Years’ War last? 116 / 100 / 80 / 200
+Cati ani a durat razboiul de 100 de ani? 116 / 100 / 80 / 200
 
 
-Who is known as the ‘Father of Medicine’? Hippocrates / herodotus
-Cine este cunoscut drept "parintele medicinei"? Hippocrate / Herodot
+Who is known as the ‘Father of Medicine’? Hippocrates / Herodotus / Plato / Descartes
+Cine este cunoscut drept "parintele medicinei"? Hippocrate / Herodot / Plato / Descartes
 
 
-Who was the first human to travel into space?  Yuri Gagarin / Neil Armstrong
-Cine a fost primul om in spatiu? Yuri Gagarin / Neil Armstrong
+Who was the first human to travel into space?  Yuri Gagarin / Neil Armstrong / John Glenn / Joseph Cooper
+Cine a fost primul om in spatiu? Yuri Gagarin / Neil Armstrong / John Glenn / Joseph Cooper
 
 
-What is the most abundant gas in the Earth’s atmosphere? Nitrogen / Oxigen
-Care este cel mai abundent gaz din atmosfera Pamantului? Nitrogen / Oxigen
+What is the most abundant gas in the Earth’s atmosphere? Nitrogen / Oxigen / Hydrogen / Argon
+Care este cel mai abundent gaz din atmosfera Pamantului? Nitrogen / Oxigen / Hidrogen / Argon
 
 
-How many ghosts chase Pac-Man at the start of each game? 4 / 2
-Cate fantome il urmaresc pe Pac-Man la inceputul fiecarui joc? 4 / 2
+How many ghosts chase Pac-Man at the start of each game? 4 / 2 / 5 / 1 
+Cate fantome il urmaresc pe Pac-Man la inceputul fiecarui joc? 4 / 2 / 5 / 1
 
 
-Which is the only body part that is fully grown from birth? Eyes / Heart
-Care este singura parte a corpului care este complet dezvoltata de la nastere? Ochi / Inima
+Which is the only body part that is fully grown from birth? Eyes / Heart / Liver / Brain
+Care este singura parte a corpului care este complet dezvoltata de la nastere? Ochi / Inima / Ficat / Creier
 
 
-Which five colours make up the Olympic rings? blue, yellow, black, green and red / blue, green, purple, yellow and red
-Care cinci culori alcătuiesc inelele olimpice? albastru, galben, negru, verde și roșu / albastru, verde, mov, galben si rosu
+Which five colours make up the Olympic rings? blue, yellow, black, green and red / blue, green, purple, yellow and red / red, pink, blue, yellow and green / blue, purple, pink, green and red
+Care cinci culori alcătuiesc inelele olimpice? albastru, galben, negru, verde și roșu / albastru, verde, mov, galben si rosu / rosu, roz, albastru, galben si verde / albastru, mov, roz, verde si rosu
 
 
-What color are Mickey Mouse's shoes? Yellow / White
-Ce culoare au pantofii lui Mickey Mouse? Galben / Alb
+What color are Mickey Mouse's shoes? Yellow / White / Black / Red
+Ce culoare au pantofii lui Mickey Mouse? Galben / Alb / Negru / Rosu
 
 
-What is the name of Nemo's dad? Marlin / Kevin
-Cum il cheama pe tatal lui Nemo? MArlin / Kevin
+What is the name of Nemo's dad? Marlin / Kevin / Bob / Martin
+Cum il cheama pe tatal lui Nemo? MArlin / Kevin / Bob / Martin
 
 
-Where did sushi originate? China / Japan
-De unde provine Sushi? China / Japonia
+Where did sushi originate? China / Japan / Korea / Indonesia
+De unde provine Sushi? China / Japonia / Corea / Indonezia
 
 
-What is the capital of Canada? Ottawa / Toronto
-Care este capitala Canadei? Ottawa / Toronto
+What is the capital of Canada? Ottawa / Toronto / Vancouver / Québec
+Care este capitala Canadei? Ottawa / Toronto / Vancouver / Québec
 
 
-How many stars are on the Chinese flag? 5 / 7
-Cate stele sunt pe steagul Chinei? 5 / 7
+How many stars are on the Chinese flag? 5 / 7 / 3 / 10
+Cate stele sunt pe steagul Chinei? 5 / 7 / 3 / 10
 
 
-How many hearts does an octopus have? 3 / 1
-Cate inimi are o caracatita? 3 / 1
+How many hearts does an octopus have? 3 / 1 / 4 / 2
+Cate inimi are o caracatita? 3 / 1 / 4 / 2
 
 
-Which colour is the most common on the national flags of the world, featuring on 75% of national flags? red / blue
-Ce culoare este cea mai comună pe steagurile naționale ale lumii, prezentând pe 75% dintre steaguri naționale? roșu / albastru
+Which colour is the most common on the national flags of the world, featuring on 75% of national flags? red / blue / white / yellow
+Ce culoare este cea mai comună pe steagurile naționale ale lumii, prezentând pe 75% dintre steaguri naționale? roșu / albastru / alb / galben
 
 
-How many European capitals does the Danube flow through? 4 / 6
-Prin câte capitale europene curge Dunărea? 4 / 6
+How many European capitals does the Danube flow through? 4 / 6 / 7 / 2
+Prin câte capitale europene curge Dunărea? 4 / 6 / 7 / 2
 
 
-How many elements are in the periodic table? 118 / 87
-Cate elemente sunt in tabelul periodic? 118 / 87
+How many elements are in the periodic table? 118 / 87 / 213 / 95
+Cate elemente sunt in tabelul periodic? 118 / 87 / 213 / 95
 
 
-Which planet in the Milky Way is the hottest? Venus / Mercury
-Care planetă din Calea Lactee este cea mai fierbinte? Venus / Mercury
+Which planet in the Milky Way is the hottest? Venus / Mercury / Jupiter / Mars
+Care planetă din Calea Lactee este cea mai fierbinte? Venus / Mercur / Jupiter / Marte
 
 
-On what continent would you find the world’s largest desert? Antarctica / Africa
-Pe ce continent ai găsi cel mai mare deșert din lume? Antarctica / Africa
+On what continent would you find the world’s largest desert? Antarctica / Africa / Australia / Asia
+Pe ce continent ai găsi cel mai mare deșert din lume? Antarctica / Africa / Australia / Asia
 
 
-What is considered the largest empire in history? Mongol / Roman
-Care este considerat cel mai mare imperiu din istorie? Mongol / Roman
+What is considered the largest empire in history? Mongol / Roman / Macedonian / Ottoman 
+Care este considerat cel mai mare imperiu din istorie? Mongol / Roman / Macedonian / Otoman 
 
 
-How many bones do we have in an ear? 3 / 5
-Câte oase avem într-o ureche? 3 / 5
+How many bones do we have in an ear? 3 / 5 / 12 / 0
+Câte oase avem într-o ureche? 3 / 5 / 12 / 0
 
 
-Who was the first President of the United States? George Washington / Abraham Lincoln
-Cine a fost primul președinte al Statelor Unite? George Washington / Abraham Lincoln
+Who was the first President of the United States? George Washington / Abraham Lincoln / John F. Kennedy / Andrew Jackson
+Cine a fost primul președinte al Statelor Unite? George Washington / Abraham Lincoln / John F. Kennedy / Andrew Jackson
 
 
-What year did the French Revolution start? 1789 / 1898
-În ce an a început Revoluția Franceză? 1789 / 1898
+What year did the French Revolution start? 1789 / 1898 / 1698 / 1914
+În ce an a început Revoluția Franceză? 1789 / 1898 / 1698 / 1914
 
 
-Which planet has the most moons? Saturn / Jupiter
-Care planetă are cele mai multe luni? Saturn / Jupiter
+Which planet has the most moons? Saturn / Jupiter / Uranus / Pluto
+Care planetă are cele mai multe luni? Saturn / Jupiter / Uranus / Pluto
 
 
-Leonardo da Vinci, Michelangelo and Raphael all belong to which historical art period? Renaissance / Baroque
-Leonardo da Vinci, Michelangelo și Raphael toți aparțin cărei perioade de artă istorică? Renaștere / Baroc
+Leonardo da Vinci, Michelangelo and Raphael all belong to which historical art period? Renaissance / Baroque / Medieval / Romanticism
+Leonardo da Vinci, Michelangelo și Raphael toți aparțin cărei perioade de artă istorică? Renaștere / Baroc / Medievala / Romantica
 
 
-Who was the first Disney princess? Snow White / Sleeping Beauty
-Care a fost prima prințesă Disney? Albă ca Zăpada / Frumoasa Adormită
+Who was the first Disney princess? Snow White / Sleeping Beauty / Belle / Mulan
+Care a fost prima prințesă Disney? Albă ca Zăpada / Frumoasa Adormită / Belle / Mulan
 
 
-What is the largest country in the world? Russia / Canada
-Care este cea mai mare țară din lume? Rusia / Canada
+What is the largest country in the world? Russia / Canada / USA / China
+Care este cea mai mare țară din lume? Rusia / Canada / USA / China
 
 
-How many dots appear on a pair of dice? 42 / 21
-Câte puncte apar pe o pereche de zaruri? 42 / 21
+How many dots appear on a pair of dice? 42 / 21 / 6 / 16
+Câte puncte apar pe o pereche de zaruri? 42 / 21 / 6 / 16
 
 
-How many wives did Henry VIII have? 6 / 4
-Câte soții a avut Henric al VIII-lea? 6 / 4
+How many wives did Henry VIII have? 6 / 4 / 1 / 12 
+Câte soții a avut Henric al VIII-lea? 6 / 4 / 1 / 12 
