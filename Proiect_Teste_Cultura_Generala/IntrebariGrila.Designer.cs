@@ -78,6 +78,7 @@ namespace Proiect_Teste_Cultura_Generala
             this.answer3.TabIndex = 3;
             this.answer3.Text = "Answer3";
             this.answer3.UseVisualStyleBackColor = true;
+            this.answer3.Click += new System.EventHandler(this.answer3_Click);
             // 
             // answer4
             // 
@@ -87,6 +88,7 @@ namespace Proiect_Teste_Cultura_Generala
             this.answer4.TabIndex = 4;
             this.answer4.Text = "Answer4";
             this.answer4.UseVisualStyleBackColor = true;
+            this.answer4.Click += new System.EventHandler(this.answer4_Click);
             // 
             // IntrebariGrila
             // 

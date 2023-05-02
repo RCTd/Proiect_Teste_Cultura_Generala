@@ -19,13 +19,7 @@ namespace Proiect_Teste_Cultura_Generala
         {
             int numberOfQuestions = Int32.Parse(lines[0].Substring(0,lines[0].IndexOf(' ')));
             int nrQ = rnd.Next(1, numberOfQuestions);
-            _question = lines[4 * nrQ].Substring(0,lines[4*nrQ].IndexOf("?")) + '?';
-            _goodA = lines[4 * nrQ].Substring(lines[4*nrQ].IndexOf("?")+1);
-            for(int i=0;i<nrA-1;i++)
-            {
-                _badA.Add(_goodA.Split('/')[i + 1]);
-            }
-            _goodA = _goodA.Substring(0,_goodA.IndexOf("/"));
+            Init(nrQ);
 
         }
 
@@ -36,6 +30,11 @@ namespace Proiect_Teste_Cultura_Generala
             {
                 nrQ = new Random().Next(1, numberOfQuestions);
             }
+            Init(nrQ);
+        }
+
+        private void Init(in int nrQ)
+        {
             _question = lines[4 * nrQ].Substring(0, lines[4 * nrQ].IndexOf("?")) + '?';
             _goodA = lines[4 * nrQ].Substring(lines[4 * nrQ].IndexOf("?") + 1);
             for (int i = 0; i < nrA - 1; i++)
@@ -44,6 +43,7 @@ namespace Proiect_Teste_Cultura_Generala
             }
             _goodA = _goodA.Substring(0, _goodA.IndexOf("/"));
         }
+
         public string GetQuestion()
         {
             return _question;
@@ -61,7 +61,10 @@ namespace Proiect_Teste_Cultura_Generala
         {
             return nrA;
         }
-
+        public string GetGoodAnswer()
+        {
+            return _goodA;
+        }
 
         void Shuffle(List<string> list)
         {
