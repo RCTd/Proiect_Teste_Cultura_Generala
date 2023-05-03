@@ -1,7 +1,7 @@
 ﻿
 namespace Proiect_Teste_Cultura_Generala
 {
-    partial class IntrebariGrila
+    partial class GridQuestions
     {
         /// <summary>
         /// Required designer variable.
@@ -48,7 +48,7 @@ namespace Proiect_Teste_Cultura_Generala
             this.QuestTextBox.TabIndex = 0;
             this.QuestTextBox.Text = "Question";
             this.QuestTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.QuestTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.QuestTextBox.TextChanged += new System.EventHandler(this.QuestTextBox_TextChanged);
             // 
             // answer1
             // 
@@ -58,7 +58,7 @@ namespace Proiect_Teste_Cultura_Generala
             this.answer1.TabIndex = 1;
             this.answer1.Text = "Answer1";
             this.answer1.UseVisualStyleBackColor = true;
-            this.answer1.Click += new System.EventHandler(this.button1_Click);
+            this.answer1.Click += new System.EventHandler(this.answear1_Click);
             // 
             // answer2
             // 
@@ -68,7 +68,7 @@ namespace Proiect_Teste_Cultura_Generala
             this.answer2.TabIndex = 2;
             this.answer2.Text = "Answer2";
             this.answer2.UseVisualStyleBackColor = true;
-            this.answer2.Click += new System.EventHandler(this.button2_Click);
+            this.answer2.Click += new System.EventHandler(this.answear2_Click);
             // 
             // answer3
             // 
@@ -90,7 +90,7 @@ namespace Proiect_Teste_Cultura_Generala
             this.answer4.UseVisualStyleBackColor = true;
             this.answer4.Click += new System.EventHandler(this.answer4_Click);
             // 
-            // IntrebariGrila
+            // GridQuestions
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,9 +100,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.Controls.Add(this.answer2);
             this.Controls.Add(this.answer1);
             this.Controls.Add(this.QuestTextBox);
-            this.Name = "IntrebariGrila";
-            this.Text = "Grila";
-            this.Load += new System.EventHandler(this.IntrebariGrila_Load);
+            this.Name = "GridQuestions";
+            this.Text = "GridQuestionWindow";
+            this.Load += new System.EventHandler(this.GridQuestionWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

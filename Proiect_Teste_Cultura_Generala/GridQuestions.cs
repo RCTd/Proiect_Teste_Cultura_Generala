@@ -11,33 +11,33 @@ using System.Windows.Forms;
 
 namespace Proiect_Teste_Cultura_Generala
 {
-    public partial class IntrebariGrila : Form
+    public partial class GridQuestions : Form
     {
         private delegate void SafeCallDelegate();
-        private Intrebare q;
-        public IntrebariGrila()
+        private Question q;
+        public GridQuestions()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void GridQuestionWindow_Load(object sender, EventArgs e)
+        {
+            NewQuestion();
+        }
+
+        private void QuestTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void answear1_Click(object sender, EventArgs e)
         {
             CheckAnswer(answer1);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void answear2_Click(object sender, EventArgs e)
         {
             CheckAnswer(answer2);
-        }
-
-        private void IntrebariGrila_Load(object sender, EventArgs e)
-        {
-            NewQuestion();
         }
 
         private void answer3_Click(object sender, EventArgs e)
@@ -52,20 +52,13 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void CheckAnswer(Button answer)
         {
-            if (answer.Text == q.GetGoodAnswer())
-            {
-                answer.BackColor = Color.Green;
-            }
-            else
-            {
-                answer.BackColor = Color.Red;
-            }
+            answer.BackColor = q.CheckGoodAnswer(answer.Text);
             Task.Delay(1000).ContinueWith(t => NewQuestion());
         }
 
         private void NewQuestion()
         {
-            q = new Intrebare();
+            q = new Question();
             if (QuestTextBox.InvokeRequired)
             {
                 var d = new SafeCallDelegate(NewQuestion);

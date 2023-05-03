@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 using System.IO;
 
 namespace Proiect_Teste_Cultura_Generala
 {
-    class Intrebare
+    class Question
     {
         public const int nrA = 4;
         private string _question,_goodA;
         private List<string> _badA=new List<string>();
         private Random rnd = new Random();
-        private string[] lines = File.ReadAllLines("../../Resources/Intrebari_grila.txt");
+        private string[] lines = File.ReadAllLines("../../Resources/Grid_Questions.txt");//Properties.Resources.Grid_Questions
 
-        public Intrebare()
+        public Question()
         {
             int numberOfQuestions = Int32.Parse(lines[0].Substring(0,lines[0].IndexOf(' ')));
             int nrQ = rnd.Next(1, numberOfQuestions);
@@ -23,7 +24,7 @@ namespace Proiect_Teste_Cultura_Generala
 
         }
 
-        public Intrebare(int nrQ)
+        public Question(int nrQ)
         {
             int numberOfQuestions = Int32.Parse(lines[0].Substring(0, lines[0].IndexOf(' ')));
             if (nrQ > numberOfQuestions)
@@ -61,9 +62,12 @@ namespace Proiect_Teste_Cultura_Generala
         {
             return nrA;
         }
-        public string GetGoodAnswer()
+        public Color CheckGoodAnswer(in string answer)
         {
-            return _goodA;
+            if (answer == _goodA)
+                return Color.Green;
+            else
+                return Color.Red;
         }
 
         void Shuffle(List<string> list)
