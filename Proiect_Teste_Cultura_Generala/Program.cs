@@ -16,7 +16,7 @@ namespace Proiect_Teste_Cultura_Generala
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GridQuestions());
+            Application.Run(new Map());
         }
     }
 }

@@ -29,25 +29,42 @@ namespace Proiect_Teste_Cultura_Generala
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.svgButton1 = new Proiect_Teste_Cultura_Generala.SvgButton();
             this.SuspendLayout();
+            // 
+            // svgButton1
+            // 
+            this.svgButton1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.svgButton1.BorderSize = 0;
+            this.svgButton1.FlatAppearance.BorderSize = 0;
+            this.svgButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.svgButton1.ForeColor = System.Drawing.Color.White;
+            this.svgButton1.Location = new System.Drawing.Point(130, 59);
+            this.svgButton1.Name = "svgButton1";
+            this.svgButton1.Size = new System.Drawing.Size(176, 152);
+            this.svgButton1.TabIndex = 0;
+            this.svgButton1.Text = "svgButton1";
+            this.svgButton1.TextColor = System.Drawing.Color.White;
+            this.svgButton1.UseVisualStyleBackColor = false;
+            this.svgButton1.Click += new System.EventHandler(this.svgButton1_Click);
             // 
             // Map
             // 
-            this.ClientSize = new System.Drawing.Size(637, 528);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.svgButton1);
             this.Name = "Map";
-            this.Text = "MapWindow";
-            this.Load += new System.EventHandler(this.MapWindow_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.Text = "Map";
+            this.Load += new System.EventHandler(this.Map_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.BindingSource bindingSource1;
+        private SvgButton svgButton1;
     }
 }
-

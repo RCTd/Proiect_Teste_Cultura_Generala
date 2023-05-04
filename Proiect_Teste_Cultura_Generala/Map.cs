@@ -5,10 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 
 namespace Proiect_Teste_Cultura_Generala
 {
@@ -17,14 +15,17 @@ namespace Proiect_Teste_Cultura_Generala
         public Map()
         {
             InitializeComponent();
-            var svgButton = new SvgButton();
-
         }
 
-        private void MapWindow_Load(object sender, EventArgs e)
+        private void Map_Load(object sender, EventArgs e)
         {
 
         }
 
+        private void svgButton1_Click(object sender, EventArgs e)
+        {
+            var grid = new GridQuestions();
+            grid.Show();
+        }
     }
 }
