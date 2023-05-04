@@ -120,6 +120,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SvgData.cs" />
     <EmbeddedResource Include="GridQuestions.resx">
       <DependentUpon>GridQuestions.cs</DependentUpon>
     </EmbeddedResource>

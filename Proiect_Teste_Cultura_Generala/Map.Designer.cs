@@ -41,14 +41,14 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton1.FlatAppearance.BorderSize = 0;
             this.svgButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton1.ForeColor = System.Drawing.Color.White;
-            this.svgButton1.Location = new System.Drawing.Point(130, 59);
+            this.svgButton1.Location = new System.Drawing.Point(112, 12);
             this.svgButton1.Name = "svgButton1";
-            this.svgButton1.Size = new System.Drawing.Size(176, 152);
+            this.svgButton1.Size = new System.Drawing.Size(218, 264);
+            this.svgButton1.Svgfilename = "../../Resources/Buttons/BWSVG/Atlantida.svg";
             this.svgButton1.TabIndex = 0;
             this.svgButton1.Text = "svgButton1";
             this.svgButton1.TextColor = System.Drawing.Color.White;
             this.svgButton1.UseVisualStyleBackColor = false;
-            this.svgButton1.Click += new System.EventHandler(this.svgButton1_Click);
             // 
             // Map
             // 
