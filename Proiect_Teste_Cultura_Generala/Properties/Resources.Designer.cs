@@ -61,12 +61,12 @@ namespace Proiect_Teste_Cultura_Generala.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Atlantida {
+        internal static System.Drawing.Bitmap Atlantida {
             get {
                 object obj = ResourceManager.GetObject("Atlantida", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

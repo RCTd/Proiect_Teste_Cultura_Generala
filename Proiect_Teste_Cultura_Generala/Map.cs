@@ -24,8 +24,66 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void svgButton1_Click(object sender, EventArgs e)
         {
-            var grid = new GridQuestions();
-            grid.Show();
+
         }
+        private void svgButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton5_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton6_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton7_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton8_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton9_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton10_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton11_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton12_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton13_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton14_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void svgButton15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /*var grid = new GridQuestions();
+        grid.Show();*/
     }
 }

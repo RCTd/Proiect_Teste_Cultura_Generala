@@ -4,12 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using Svg;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 
 namespace Proiect_Teste_Cultura_Generala
 {
     class SvgData
     {
         private char[] svgCommands;
+        private GraphicsPath Path;
         private int width, height;
 
         public SvgData()
@@ -48,6 +52,14 @@ namespace Proiect_Teste_Cultura_Generala
             XmlElement path = doc.SelectSingleNode("//svg:path", nsMgr) as XmlElement;
             string pathData = path.GetAttribute("d");
             svgCommands = pathData.ToCharArray();
+            Path = new GraphicsPath();
+            var svgBuilder = new SvgPathBuilder();
+            var segList = SvgPathBuilder.Parse(new ReadOnlySpan<char>(svgCommands));
+            PointF pnt = new Point(0, 0);
+            foreach (var segment in segList)
+            {
+                pnt = segment.AddToPath(Path, pnt, segList);
+            }
         }
 
         public char[] GetCommands()
@@ -62,6 +74,10 @@ namespace Proiect_Teste_Cultura_Generala
         public int GetHeight()
         {
             return height;
+        }
+        public GraphicsPath GetGraphicsPath()
+        {
+            return Path; 
         }
     }
 }

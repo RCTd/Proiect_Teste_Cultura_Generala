@@ -78,18 +78,10 @@ namespace Proiect_Teste_Cultura_Generala
         private GraphicsPath GetFigurePath(Rectangle rect)
         {
             SvgData SVGData = new SvgData(svgfilename);
-            ReadOnlySpan<char> pathData = new ReadOnlySpan<char>(SVGData.GetCommands());
-            var path = new GraphicsPath();
-            var segList = SvgPathBuilder.Parse(pathData);
-            PointF pnt=new Point(0,0);
-            foreach (var segment in segList)
-            {
-                pnt=segment.AddToPath(path,pnt,segList);
-            }
-
+            GraphicsPath path = SVGData.GetGraphicsPath();
             // Scale the GraphicsPath to fit the desired size
-            float scaleX = SVGData.GetWidth() / ((float)rect.Width * 10);
-            float scaleY = - SVGData.GetHeight() / ((float)rect.Height * 10);
+            float scaleX = (float)rect.Width / (SVGData.GetWidth() * 10f);
+            float scaleY = -(float)rect.Height / (SVGData.GetHeight() * 10f);
             Matrix scaleMatrix = new Matrix();
             scaleMatrix.Translate(0, rect.Height);
             scaleMatrix.Scale(scaleX, scaleY);
@@ -106,16 +98,14 @@ namespace Proiect_Teste_Cultura_Generala
 
             Rectangle rectSurface = this.ClientRectangle;
 
-            using (GraphicsPath pathSurface = GetFigurePath(rectSurface))
-            using (Pen penSurface = new Pen(this.Parent.BackColor))
-            {
-                pevent.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
-                //Button surface
-                this.Region = new Region(pathSurface);
-                //Draw surface border for HD result
-                pevent.Graphics.DrawPath(penSurface, pathSurface);
+            GraphicsPath pathSurface = GetFigurePath(rectSurface);
+            Pen penSurface = new Pen(this.Parent.BackColor);
+            pevent.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            //Button surface
+            this.Region = new Region(pathSurface);
+            //Draw surface border for HD result
+            pevent.Graphics.DrawPath(penSurface, pathSurface);
 
-            }
         }
 
         protected override void OnHandleCreated(EventArgs e)
