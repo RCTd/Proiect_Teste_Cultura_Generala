@@ -85,49 +85,7 @@ namespace Proiect_Teste_Cultura_Generala
             grid.Show();
             this.Hide();
         }
-        private void svgButton10_Click(object sender, EventArgs e)
-        {
-            GridQuestions grid = new GridQuestions();
-            grid.Owner = this;
-            grid.Show();
-            this.Hide();
-        }
-        private void svgButton11_Click(object sender, EventArgs e)
-        {
-            GridQuestions grid = new GridQuestions();
-            grid.Owner = this;
-            grid.Show();
-            this.Hide();
-        }
-        private void svgButton12_Click(object sender, EventArgs e)
-        {
-            GridQuestions grid = new GridQuestions();
-            grid.Owner = this;
-            grid.Show();
-            this.Hide();
-        }
-        private void svgButton13_Click(object sender, EventArgs e)
-        {
-            GridQuestions grid = new GridQuestions();
-            grid.Owner = this;
-            grid.Show();
-            this.Hide();
-        }
-        private void svgButton14_Click(object sender, EventArgs e)
-        {
-            GridQuestions grid = new GridQuestions();
-            grid.Owner = this;
-            grid.Show();
-            this.Hide();
-        }
-        private void svgButton15_Click(object sender, EventArgs e)
-        {
-            GridQuestions grid = new GridQuestions();
-            grid.Owner = this;
-            grid.Show();
-            this.Hide();
-        }
-
+        
         /*var grid = new GridQuestions();
         grid.Show();*/
     }
