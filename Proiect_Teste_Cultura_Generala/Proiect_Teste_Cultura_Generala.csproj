@@ -138,8 +138,16 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\Buttons\BWSVG\Atlantida.svg" />
     <None Include="Resources\Buttons\Atlantida.png" />
+    <Content Include="Resources\Buttons\BWSVG\Layer1.svg" />
+    <Content Include="Resources\Buttons\BWSVG\Layer2.svg" />
+    <Content Include="Resources\Buttons\BWSVG\Layer3.svg" />
+    <Content Include="Resources\Buttons\BWSVG\Layer4.svg" />
+    <Content Include="Resources\Buttons\BWSVG\Layer5.svg" />
+    <Content Include="Resources\Buttons\BWSVG\Layer6.svg" />
+    <Content Include="Resources\Buttons\BWSVG\Layer7.svg" />
+    <Content Include="Resources\Buttons\BWSVG\Layer8.svg" />
+    <Content Include="Resources\Buttons\BWSVG\Layer9.svg" />
     <Content Include="Resources\Grid_Questions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

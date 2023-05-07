@@ -11,7 +11,7 @@ namespace Proiect_Teste_Cultura_Generala
     {
         //Fields
         private int borderSize = 0;
-        private string svgfilename = "../../Resources/Buttons/BWSVGbn /Atlantida.svg";
+        private string svgfilename = "../../Resources/Buttons/BWSVGbn/Layer1.svg";
         private Color borderColor = Color.PaleVioletRed;
         
 
