@@ -13,8 +13,8 @@ namespace Proiect_Teste_Cultura_Generala
 {
     public partial class GridQuestions : Form
     {
-        private delegate void SafeCallDelegate();
         private Question q;
+        private bool pressFlag = false;
         private int numQuestionsAnswered = 0;
         private static int numCorrectAnswers = 0;
 
@@ -55,6 +55,21 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void CheckAnswer(Button answer)
         {
+            if (!pressFlag)
+            {
+                pressFlag = true;
+                //answer.BackColor = q.CheckGoodAnswer(answer.Text);
+                numQuestionsAnswered++;
+                if (q.CheckGoodAnswer(answer.Text) == Color.Green)
+                {
+                    numCorrectAnswers++;
+                }
+                timer1.Start();
+            }
+        }
+
+        private void NewQuestion()
+        {
             if (numQuestionsAnswered == 6)
             {
                 numQuestionsAnswered = 0;
@@ -66,42 +81,25 @@ namespace Proiect_Teste_Cultura_Generala
                 mod.Show();
                 this.Hide();
             }
-
-            numQuestionsAnswered++;
-            if (q.CheckGoodAnswer(answer.Text) == Color.Green)
-            {
-                numCorrectAnswers++;
-            }
-            Task.Delay(1000).ContinueWith(t => NewQuestion());
-        }
-
-        private void NewQuestion()
-        {
-            q = new Question();
-            if (QuestTextBox.InvokeRequired)
-            {
-                var d = new SafeCallDelegate(NewQuestion);
-                QuestTextBox.Invoke(d);
-            }
             else
             {
+                pressFlag = false;
+                q = new Question();
                 QuestTextBox.Text = q.GetQuestion();
-            }
-            List<string> answers = q.GetAnswers();
-            Button[] answersBtn = { answer1, answer2, answer3, answer4 };
-            for (int i = 0; i < q.GetNumberOfAnswers(); i++)
-            {
-                if (answersBtn[i].InvokeRequired)
-                {
-                    var d = new SafeCallDelegate(NewQuestion);
-                    answersBtn[i].Invoke(d);
-                }
-                else
+                List<string> answers = q.GetAnswers();
+                Button[] answersBtn = { answer1, answer2, answer3, answer4 };
+                for (int i = 0; i < q.GetNumberOfAnswers(); i++)
                 {
                     answersBtn[i].Text = answers[i];
                     answersBtn[i].BackColor = Color.White;
                 }
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            NewQuestion();
+            timer1.Stop();
         }
     }
 }
