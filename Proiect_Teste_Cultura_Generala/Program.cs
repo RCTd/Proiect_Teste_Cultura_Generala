@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UIProiectIP;
 
 namespace Proiect_Teste_Cultura_Generala
 {
@@ -16,7 +17,7 @@ namespace Proiect_Teste_Cultura_Generala
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Map());
+            Application.Run(new Form1());
         }
     }
 }

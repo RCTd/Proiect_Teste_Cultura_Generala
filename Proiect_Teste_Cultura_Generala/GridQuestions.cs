@@ -15,6 +15,9 @@ namespace Proiect_Teste_Cultura_Generala
     {
         private delegate void SafeCallDelegate();
         private Question q;
+        private int numQuestionsAnswered = 0;
+        private static int numCorrectAnswers = 0;
+
         public GridQuestions()
         {
             InitializeComponent();
@@ -52,7 +55,23 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void CheckAnswer(Button answer)
         {
-            answer.BackColor = q.CheckGoodAnswer(answer.Text);
+            if (numQuestionsAnswered == 6)
+            {
+                numQuestionsAnswered = 0;
+                MessageBox.Show("Ai finalizat chestionarul despre aceasta regiune.\n" +
+                    "vei fi reidrectionat catre harta\n" +
+                    "Scorul provizoriu: " + numCorrectAnswers, "Atenție");
+                Form mod = new Map();
+                mod.Owner = this;
+                mod.Show();
+                this.Hide();
+            }
+
+            numQuestionsAnswered++;
+            if (q.CheckGoodAnswer(answer.Text) == Color.Green)
+            {
+                numCorrectAnswers++;
+            }
             Task.Delay(1000).ContinueWith(t => NewQuestion());
         }
 
