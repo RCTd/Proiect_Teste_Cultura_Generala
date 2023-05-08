@@ -70,13 +70,26 @@ namespace UIProiectIP
 
         private void buttonSingUp_Click(object sender, EventArgs e)
         {
-          
-            String InsertQuerry="Insert into Login_pass(username,parola)Values('"+txt_username.Text +"','"+txt_parola.Text+"')";
-            _conn.Open();
-            SqlCommand cmd = new SqlCommand(InsertQuerry, _conn);           
-            cmd.ExecuteNonQuery();
-            _conn.Close();
-            MessageBox.Show("Contul a fost facut, acum poti da START");
+            try
+            {
+                String InsertQuerry = "Insert into Login_pass(username,parola)Values('" + txt_username.Text + "','" + txt_parola.Text + "')";
+                _conn.Open();
+                SqlCommand cmd = new SqlCommand(InsertQuerry, _conn);
+                cmd.ExecuteNonQuery();
+                _conn.Close();
+                MessageBox.Show("Contul a fost facut, acum poti da START");
+            }
+            catch(SqlException ex) when (ex.Number == 2627)
+            {
+               MessageBox.Show("Acest username nu este valabil, incercati altul! ");
+               
+
+            }
+            finally
+            {
+                _conn.Close();
+            }
+
         }
 
     }
