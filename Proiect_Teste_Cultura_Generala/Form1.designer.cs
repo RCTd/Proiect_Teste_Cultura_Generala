@@ -51,9 +51,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.label1.Location = new System.Drawing.Point(299, 110);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 39);
+            this.label1.Size = new System.Drawing.Size(239, 39);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Conquestador";
+            this.label1.Text = "ConQUIZtador";
             // 
             // label2
             // 

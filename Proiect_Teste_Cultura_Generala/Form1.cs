@@ -51,8 +51,8 @@ namespace UIProiectIP
                 else
                 {
                     MessageBox.Show("Parola sau Username gresite sau nu ai cont");
-                    txt_username.Clear();
-                    txt_parola.Clear();
+                    //txt_username.Clear();
+                    //txt_parola.Clear();
                 }
 
             }
@@ -70,11 +70,13 @@ namespace UIProiectIP
 
         private void buttonSingUp_Click(object sender, EventArgs e)
         {
+          
             String InsertQuerry="Insert into Login_pass(username,parola)Values('"+txt_username.Text +"','"+txt_parola.Text+"')";
             _conn.Open();
-            SqlCommand cmd = new SqlCommand(InsertQuerry, _conn);
+            SqlCommand cmd = new SqlCommand(InsertQuerry, _conn);           
             cmd.ExecuteNonQuery();
             _conn.Close();
+            MessageBox.Show("Contul a fost facut, acum poti da START");
         }
 
     }
