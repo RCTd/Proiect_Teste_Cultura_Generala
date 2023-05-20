@@ -93,8 +93,16 @@ namespace UIProiectIP
             }
             */
         }
-            
 
+        private void buttonHelp(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_Scor(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

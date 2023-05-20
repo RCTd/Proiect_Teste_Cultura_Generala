@@ -80,6 +80,7 @@
             this.button2.Text = "Help";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.buttonHelp);
             // 
             // button3
             // 
@@ -91,6 +92,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "score";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button_Scor);
             // 
             // txt_parola
             // 
