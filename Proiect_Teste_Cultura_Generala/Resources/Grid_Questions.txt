@@ -1,192 +1,217 @@
-﻿32 4	Intrebari Raspunsuri		//Format: Intrebare? R.Corect / R.Gresit / R.Gresit / R.Gresit 
+54  4	Intrebari Raspunsuri		//Format: Intrebare? R.Corect / R.Gresit / R.Gresit / R.Gresit 
 
 
-What is the name of Mickey Mouse's pet dog? Pluto / Goofy / Bolt / Scooby
-Cum se numește câinele de companie al lui Mickey Mouse? Pluto / Goofy / Bolt / Scooby
 
+Care este numele cetății medievale din Suceava, renumită pentru rolul său în istoria Moldovei și pentru frumusețea sa arhitecturală?  Cetatea de Scaun /  Cetatea Soroca /  Cetatea Neamtului  /  Cetatea Alba Carolina
 
-What is the last letter of the Greek alphabet? Omega / Ghamma / Alpha / Theta
-Care este ultima litera a alfabetului grcesc? Omega / Gama / Alfa / Teta
 
 
-Which Disney movie has had the most sequels? Toy Story / Cars / Monsters, Inc. / The Incredibles
-Care Film Disney are cele mai multe continuari? Toy Story / Cars / Monsters, Inc. / The Incredibles
+Care este denumirea rezervației naturale situată în județul Suceava, care protejează una dintre cele mai valoroase păduri virgine din Europa?  Rezervația Naturală Slatioara / Rezervația Naturală Retezat /  Rezervația Naturală Bicazului-Hășmaș/Rezervația Naturală Cheile Nerei-Beușnița 
 
 
-What colour is Lightning McQueen in “Cars”? Red / Blue / Yellow / Green
-Ce culoare are Lightning McQueen in filmul "Cars"? Rosu / Albastru / Galben / Verde
 
+Care este denumirea celei mai mari mănăstiri din România, situată în județul Suceava și inclusă în Patrimoniul Mondial UNESCO? Mănăstirea Putna/ Mănăstirea Moldovița/ Mănăstirea Sucevița/Mănăstirea Voroneț
 
-How many years did the Hundred Years’ War last? 116 / 100 / 80 / 200
-Cati ani a durat razboiul de 100 de ani? 116 / 100 / 80 / 200
 
 
-Who is known as the ‘Father of Medicine’? Hippocrates / Herodotus / Plato / Descartes
-Cine este cunoscut drept "parintele medicinei"? Hippocrate / Herodot / Plato / Descartes
+Care este numele râului care trece prin județul Botoșani și se varsă în râul Prut? Râul Jijia/ Râul Bistrița/Râul Suceava/ Râul Siret 
 
 
-Who was the first human to travel into space?  Yuri Gagarin / Neil Armstrong / John Glenn / Joseph Cooper
-Cine a fost primul om in spatiu? Yuri Gagarin / Neil Armstrong / John Glenn / Joseph Cooper
 
+Ce poet roman s-a nascut in judetul Botosani? Mihai Eminescu/ Ana Blandiana/ Tudor Arghezi/ Ion Barbu
 
-What is the most abundant gas in the Earth’s atmosphere? Nitrogen / Oxigen / Hydrogen / Argon
-Care este cel mai abundent gaz din atmosfera Pamantului? Nitrogen / Oxigen / Hidrogen / Argon
 
 
-How many ghosts chase Pac-Man at the start of each game? 4 / 2 / 5 / 1 
-Cate fantome il urmaresc pe Pac-Man la inceputul fiecarui joc? 4 / 2 / 5 / 1
+Ce personalitate importanta NU s-a nascut in judetul Botosani? Ion Creanga/ George Enescu/ Stefan Luchian/ Nicolae Iorga
 
 
-Which is the only body part that is fully grown from birth? Eyes / Heart / Liver / Brain
-Care este singura parte a corpului care este complet dezvoltata de la nastere? Ochi / Inima / Ficat / Creier
 
+Care este cea mai mare cascada din Romania , aflata chiar in judetul Maramures?Cascada Cailor/ Cascada Urlatoarea/ Cascada Duruitoarea/Cascada Capra
 
-Which five colours make up the Olympic rings? blue, yellow, black, green and red / blue, green, purple, yellow and red / red, pink, blue, yellow and green / blue, purple, pink, green and red
-Care cinci culori alcătuiesc inelele olimpice? albastru, galben, negru, verde și roșu / albastru, verde, mov, galben si rosu / rosu, roz, albastru, galben si verde / albastru, mov, roz, verde si rosu
 
 
-What color are Mickey Mouse's shoes? Yellow / White / Black / Red
-Ce culoare au pantofii lui Mickey Mouse? Galben / Alb / Negru / Rosu
+Ce simbol este specific judetului Maramures ? Mocanita / Biserica Neagra/ Manastirea Voronet/ Cetatea de Scaun
 
 
-What is the name of Nemo's dad? Marlin / Kevin / Bob / Martin
-Cum il cheama pe tatal lui Nemo? MArlin / Kevin / Bob / Martin
 
+Care cimitir este cunoscut in zona Maramuresului ? Cimitirul Vesel din Sapanta / Cimitirul Vesel din Mures/ Cimitirul Vesel Viseu de Mijloc/ Cimitirul Vesel Valea Pestilor 
 
-Where did sushi originate? China / Japan / Korea / Indonesia
-De unde provine Sushi? China / Japonia / Corea / Indonezia
 
 
-What is the capital of Canada? Ottawa / Toronto / Vancouver / Québec
-Care este capitala Canadei? Ottawa / Toronto / Vancouver / Québec
+Satu Mare este cunoscut pentru pozitionarea foarte buna , care informatie este falsa ? 530 km de Budapesta (6 ore şi 14 minute cu autoturismul)/ 537 km de Brastislava (6 ore şi 11 minute cu autoturismul)/ 580 km de Viena (6 ore şi 33 minute cu autoturismul)/  578 km de Bucureşti (6 ore şi 57 minute cu autoturismul)
 
 
-How many stars are on the Chinese flag? 5 / 7 / 3 / 10
-Cate stele sunt pe steagul Chinei? 5 / 7 / 3 / 10
 
+Care manastire se afla in judetul Satu Mare ? Manastirea Lunca Apei/ Manastirea Satucul Mare/ Manastirea Sadova/ Manastirea Tuturor Sfintilor 
 
-How many hearts does an octopus have? 3 / 1 / 4 / 2
-Cate inimi are o caracatita? 3 / 1 / 4 / 2
 
 
-Which colour is the most common on the national flags of the world, featuring on 75% of national flags? red / blue / white / yellow
-Ce culoare este cea mai comună pe steagurile naționale ale lumii, prezentând pe 75% dintre steaguri naționale? roșu / albastru / alb / galben
+Care este numele castelului din județul Satu Mare, cunoscut pentru arhitectura sa impresionantă și grădinile frumoase? Castelul Károlyi / Castelul Huniazilor/ Castelul Corvinilor/ Castelul Bánffy
 
 
-How many European capitals does the Danube flow through? 4 / 6 / 7 / 2
-Prin câte capitale europene curge Dunărea? 4 / 6 / 7 / 2
 
+Care este numele raului ce NU  strabate judetul Arad / Prut/ Crisul Alb/ Mures/ Crisul Negru
 
-How many elements are in the periodic table? 118 / 87 / 213 / 95
-Cate elemente sunt in tabelul periodic? 118 / 87 / 213 / 95
 
 
-Which planet in the Milky Way is the hottest? Venus / Mercury / Jupiter / Mars
-Care planetă din Calea Lactee este cea mai fierbinte? Venus / Mercur / Jupiter / Marte
+Care statiune este renumita in judetul Bihor ? Baile felix/ Techirghiol/ Baile Herculane/ Baile Tusnad
 
 
-On what continent would you find the world’s largest desert? Antarctica / Africa / Australia / Asia
-Pe ce continent ai găsi cel mai mare deșert din lume? Antarctica / Africa / Australia / Asia
 
+Care dintre următoarele clădiri istorice se găsește în județul Arad și este un important simbol al orașului? Palatul Neumann / Palatul Culturii din Iași/ Cetatea Alba Carolina/ Castelul Corvinilor
 
-What is considered the largest empire in history? Mongol / Roman / Macedonian / Ottoman 
-Care este considerat cel mai mare imperiu din istorie? Mongol / Roman / Macedonian / Otoman 
 
 
-How many bones do we have in an ear? 3 / 5 / 12 / 0
-Câte oase avem într-o ureche? 3 / 5 / 12 / 0
+Care este capitala județului Bihor?  Oradea/ Timișoara/ Cluj-Napoca/ Arad
 
 
-Who was the first President of the United States? George Washington / Abraham Lincoln / John F. Kennedy / Andrew Jackson
-Cine a fost primul președinte al Statelor Unite? George Washington / Abraham Lincoln / John F. Kennedy / Andrew Jackson
 
+Care este cel mai înalt vârf montan din județul Bihor? Vârful Cucurbăta Mare/ Vârful Omu/ Vârful Moldoveanu/ Vârful Piatra Mare
 
-What year did the French Revolution start? 1789 / 1898 / 1698 / 1914
-În ce an a început Revoluția Franceză? 1789 / 1898 / 1698 / 1914
 
 
-Which planet has the most moons? Saturn / Jupiter / Uranus / Pluto
-Care planetă are cele mai multe luni? Saturn / Jupiter / Uranus / Pluto
+Care este una dintre cele mai cunoscute atracții turistice din județul Bihor, o peșteră cunoscută pentru frumusețea ei? Peştera Unguru Mare/ Peștera Scărișoara/ Peștera Muierilor/  Peștera Veterani
 
 
-Leonardo da Vinci, Michelangelo and Raphael all belong to which historical art period? Renaissance / Baroque / Medieval / Romanticism
-Leonardo da Vinci, Michelangelo și Raphael toți aparțin cărei perioade de artă istorică? Renaștere / Baroc / Medievala / Romantica
 
+Care dintre următoarele clădiri reprezintă un important simbol al orașului Timișoara? Catedrala Mitropolitană din Timișoara/ Palatul Culturii din Iași/ Cetatea Alba Carolina/ Castelul Peleș din Sinaia
 
-Who was the first Disney princess? Snow White / Sleeping Beauty / Belle / Mulan
-Care a fost prima prințesă Disney? Albă ca Zăpada / Frumoasa Adormită / Belle / Mulan
 
 
-What is the largest country in the world? Russia / Canada / USA / China
-Care este cea mai mare țară din lume? Rusia / Canada / USA / China
+Care este capitala județului Timiș? Timișoara/ Arad/ Oradea/ Cluj-Napoca
 
 
-How many dots appear on a pair of dice? 42 / 21 / 6 / 16
-Câte puncte apar pe o pereche de zaruri? 42 / 21 / 6 / 16
 
+Care a fost primul oras din lume Europa care a introdus iluminarea stradala? Timisoara/ Oradea/ Satu Mare/ Cluj Napoca
 
-How many wives did Henry VIII have? 6 / 4 / 1 / 12 
-Câte soții a avut Henric al VIII-lea? 6 / 4 / 1 / 12 
 
-What is the capital of France? Paris / Rome / London / Madrid
-Care este capitala Franței? Paris / Roma / Londra / Madrid
 
+Care este cel mai înalt vârf montan din județul Caraș-Severin? Varful Gugu/ Vârful Țarcu/ Vârful Cucurbăta Mare/ Vârful Parângu Mare
 
-Who wrote the novel "To Kill a Mockingbird"? Harper Lee / J.K. Rowling / Stephen King / George Orwell
-Cine a scris romanul „To Kill a Mockingbird”? Harper Lee / J.K. Rowling / Stephen King / George Orwell
 
 
-Which planet is closest to the Sun? Mercury / Venus / Earth / Mars
-Care planetă este cea mai apropiată de Soare? Mercur / Venus / Pământ / Marte
+Care este denumirea celei mai renumite stațiuni balneare din județul Caras Severin ? Baile Herculane/ Baile Felix/ Baile Techirghiol/ Baile Tusnad
 
 
-What is the largest country in the world by land area? Russia / Canada / China / United States
-Care este cea mai mare țară din lume după suprafață? Rusia / Canada / China / Statele Unite
 
+Care este denumirea unei cascade care a primit denumirea a fi cea mai spectaculoasa de catre the World Geography in 2013 din județul Caras Severin ? Cascada Bigar/ Cascada Cailor/ Cascada Duruitoarea/ Cascada Dunarea Mica
 
-What is the chemical symbol for gold? Au / Ag / Fe / Cu
-Care este simbolul chimic pentru aur? Au / Ag / Fe / Cu
 
 
-Who invented the telephone? Alexander Graham Bell / Thomas Edison / Nikola Tesla / Benjamin Franklin
-Cine a inventat telefonul? Alexander Graham Bell / Thomas Edison / Nikola Tesla / Benjamin Franklin
+Care rau strabate judetul Alba? Raul Mures/ Raul Siret/ Raul Dambovita / Raul Prut
 
 
-What is the name of the world's largest ocean? Pacific / Atlantic / Indian / Arctic
-Cum se numește cel mai mare ocean din lume? Pacific / Atlantic / Indian / Arctic
 
+Ce manastire este cunoscuta in judetul Cluj-Napoca , chiar in toata Transilvania? Manastirea Nicula/ Manastirea Horezu/ Mănăstirea Lupsa/Mănăstirea Cozia
 
-Who painted the famous artwork "Mona Lisa"? Leonardo da Vinci / Michelangelo / Vincent van Gogh / Pablo Picasso
-Cine a pictat celebra lucrare de artă „Mona Lisa”? Leonardo da Vinci / Michelangelo / Vincent van Gogh / Pablo Picasso
 
+	
+Care este denumirea celei mai vechi și mai renumite universități din Cluj? Universitatea Babeș-Bolyai/ Universitatea de Medicină și Farmacie/ Universitatea de Arte și Design/ Universitatea Politehnica
 
-What is the name of the biggest desert in the world? Sahara / Gobi / Arabian / Kalahari
-Cum se numește cel mai mare deșert din lume? Sahara / Gobi / Arabian / Kalahari
 
+	
+Care manastire se afla in judetul Bistrita Nasaud? Manastirea Dobric/ Manastirea Valea Teilor/ Manastirea Saon/ Manastirea Letea
 
-What is the largest continent in the world? Asia / Europe / Africa / North America
-Care este cel mai mare continent din lume? Asia / Europa / Africa / America de Nord
 
 
-Who was the first person to step on the moon? Neil Armstrong / Buzz Aldrin / Michael Collins / Yuri Gagarin
-Cine a fost prima persoană care a călcat pe Lună? Neil Armstrong / Buzz Aldrin / Michael Collins / Yuri Gagarin
+Care este numele muntelui cel mai înalt din județul Harghita, cu o altitudine de aproximativ 1.800 de metri? Vârful Harghita/ Vârful Ceahlău/ Vârful Bucura/ Vârful Bucin
 
+	
 
-Which country gifted the Statue of Liberty to the United States? France / Italy / Spain / Germany
-Care țară a dăruit Statuia Libertății Statelor Unite? Franța / Italia / Spania / Germania
+Care este denumirea celei mai renumite stațiuni balneare din județul Harghita, cunoscută pentru apele sale minerale? Băile Tușnad/ Băile Felix/ Băile Herculane/ Băile Sovata
 
 
-Who is the current President of the United States? Joe Biden / Donald Trump / Barack Obama / George W. Bush
-Cine este actualul președinte al Statelor Unite? Joe Biden / Donald Trump / Barack Obama / George W. Bush
+	
+Care este monumentul istoric emblematic al orașului Iași? Palatul Culturii/ Biserica Sfântul Nicolae Domnesc/ Catedrala Mitropolitană/ Teatrul Național
 
 
-What is the name of the tallest mountain in the world? Mount Everest / K2 / Kilimanjaro / Denali
-Cum se numește cel mai înalt munte din lume? Muntele Everest / K2 / Kilimanjaro / Denali
 
+Care este numele celei mai importante biblioteci din Iași, fondată în anul 1838? Biblioteca Centrală Universitară "Mihai Eminescu"/ Biblioteca Metropolitană/ Biblioteca Județeană "Gheorghe Asachi"/ Biblioteca Academiei Române
 
-Who painted the famous artwork "Starry Night"? Vincent van Gogh / Claude Monet / Salvador Dali / Pablo Picasso
-Cine a pictat celebra lucrare „Noapte înstelată”? Vincent van Gogh / Claude Monet / Salvador Dali / Pablo Picasso
+	
 
+Care este evenimentul istoric important în care Ștefan cel Mare a obținut o victorie celebră în apropiere de Vaslui? Bătălia de la Vaslui/ Bătălia de la Podul Scund/ Bătălia de la Războieni/ Bătălia de la Călugăreni
 
-What is the name of the smallest continent in the world? Australia / Antarctica / Europe / South America
-Cum se numește cel mai mic continent din lume? Australia / Antarctica / Europa / America de Sud
+
+	
+Care este renumita clădire simbol a orașului Galați, construită în stil neogotic?  Palatul Administrativ/ Casa de Cultură a Sindicatelor/ Muzeul de Artă Vizuală/ Catedrala Sfânta Treime
+
+
+	
+Care este cel mai înalt vârf muntos din județul Neamț? Vârful Ocolașul Mare/ Vârful Toaca/ Vârful Moldoveanu/ Vârful Omu
+
+	
+
+Care este cel mai mare râu care trece prin județul Bacău? Trotuș/ Bistrița/ Prut/ Siret
+
+
+
+Care este numele vechiului oraș aflat pe malul Dunării, în prezent cunoscut sub numele de Tulcea? Aegyssus/ Callatis/ Histria/ Tomis
+
+
+
+Care este specia de păsări reprezentativă pentru Delta Dunării, adesea asociată cu această zonă? Pelicanul/ Broasca/ Vulpe/ Liliac
+
+	
+
+Care este cel mai mare oraș din județul Tulcea, după municipiul Tulcea? Isaccea/ Babadag/ Macin/ Murighiol
+
+
+
+Care este cel mai mare lac din județul Constanța, o importantă atracție turistică și zonă protejată? Lacul Techirghiol/ Lacul Siutghiol/ Lacul Mangalia/ Lacul Tasaul
+
+	
+
+Care este denumirea istorică a orașului Constanța? Tomis/ Histria/ Callatis/ Noviodunum
+
+	
+
+Care este principala atracție turistică a județului Constanța, reprezentând un complex de ruine și vestigii antice? Cetatea Histria/ Muzeul de Istorie Națională și Arheologie Constanța/ Moscheea Carol I/ Farul Genovez
+
+
+
+Care este cel mai mare oraș din județul Prahova? Ploiești/ Câmpina/ Bușteni/ Sinaia
+
+
+
+Care este numele castelului din județul Prahova, construit la sfarsitul secolului  XIX? Castelul Peles/ Castelul Corvinilor/ Castelul Cantacuzino/ Castelul Bran
+
+
+
+Care este denumirea mănăstirii din județul Argeș, cunoscută pentru arhitectura sa unică și legenda legată de construirea ei?  Mănăstirea Curtea de Argeș/ Mănăstirea Cozia/ Mănăstirea Horezu/ Mănăstirea Brâncoveanu
+
+
+
+Care este numele râului care străbate județul Argeș și care formează celebra Cheile Argeșului?  Râul Argeș/ Râul Olt/ Râul Dâmbovița/ Râul Teleajen
+
+
+
+Care este cel mai mare parc din București, cunoscut pentru lacurile sale, alei frumoase și zonele de agrement? Parcul Herăstrău/ Parcul Cișmigiu/ Parcul Carol/ Parcul Tineretului
+
+
+
+Care este numele celei mai vechi biserici ortodoxe din București, construită în secolul al XVI-lea? Biserica Curtea Veche/ Biserica Kretzulescu/ Biserica Radu Vodă/ Biserica Stavropoleos
+
+
+
+Care este denumirea principalului râu care străbate județul Olt? Râul Olt/ Râul Argeș/ Râul Jiu/ Râul Danube
+
+
+
+Care sculptura a celebrului Constantin Brancusi nu se afla in Tg Jiu? Maiastra 1/ Poarta sarutului/ Masa Tacerii/ Coloana Infinitului
+
+
+
+Care este prima sculptura a celebrului Constantin Brancusi? Bustul lui Gheorghe Chițu/ Vitellius/ Capul lui Laocoon/ Scaun colțar 
+
+
+
+Care este denumirea stadionului din Craiova, cunoscut ca fiind stadionul echipei de fotbal Universitatea Craiova? Stadionul Ion Oblemenco/ Stadionul Municipal/ Stadionul Extensiv/ Stadionul Nicolae Dobrin
+	
+
+
+Care este numele teatrului din Craiova, considerat unul dintre cele mai importante teatre din România? Teatrul Național "Marin Sorescu" / Teatrul Național "Ion Luca Caragiale"/ Teatrul Național "Radu Stanca"/ Teatrul Național "Mihai Eminescu"
+
+
+
+Care este denumirea celei mai mari stațiuni balneare din județul Vâlcea, cunoscută pentru apele minerale și tratamentele balneare? Băile Govora/ Călimănești / Băile Felix / Ocnele Mari

@@ -19,11 +19,12 @@ namespace UIProiectIP
         {
             InitializeComponent();
         }
-        SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
+        //SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
 
 
         private void button_Start(object sender, EventArgs e)
         {
+            /*
             String username, parola;
             username = txt_username.Text;
             parola=txt_parola.Text;
@@ -42,11 +43,12 @@ namespace UIProiectIP
                     //incarca formul urmator
                     //Map form2 = new Map();
                     //form2.Show();
-                    //this.Hide();
+                    //this.Hide();*/
                     Map mod = new Map();
                     mod.Owner = this;
                     mod.Show();
                     this.Hide();
+            /*
                 }
                 else
                 {
@@ -64,12 +66,12 @@ namespace UIProiectIP
             {
                 _conn.Close();
             }
-
+            */
             
         }
 
         private void buttonSingUp_Click(object sender, EventArgs e)
-        {
+        {/*
             try
             {
                 String InsertQuerry = "Insert into Login_pass(username,parola)Values('" + txt_username.Text + "','" + txt_parola.Text + "')";
@@ -89,8 +91,10 @@ namespace UIProiectIP
             {
                 _conn.Close();
             }
-
+            */
         }
+            
 
     }
+
 }
