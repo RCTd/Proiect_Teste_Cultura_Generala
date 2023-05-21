@@ -96,7 +96,7 @@ namespace UIProiectIP
 
         private void buttonHelp(object sender, EventArgs e)
         {
-
+            Help.ShowHelp(this, "../../Resources/Conquistador.chm");
         }
 
         private void button_Scor(object sender, EventArgs e)
