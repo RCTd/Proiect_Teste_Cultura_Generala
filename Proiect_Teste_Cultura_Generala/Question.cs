@@ -1,13 +1,123 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Drawing;
 using System.IO;
+using System.Collections;
 
 namespace Proiect_Teste_Cultura_Generala
 {
+
+    abstract class Iterator : IEnumerator
+    {
+        object IEnumerator.Current => Current();
+
+        // Returns the key of the current element
+        public abstract int Key();
+
+        // Returns the current element
+        public abstract object Current();
+
+        // Move forward to next element
+        public abstract bool MoveNext();
+
+        // Rewinds the Iterator to the first element
+        public abstract void Reset();
+    }
+
+    abstract class IteratorAggregate : IEnumerable
+    {
+        // Returns an Iterator or another IteratorAggregate for the implementing
+        // object.
+        public abstract IEnumerator GetEnumerator();
+    }
+
+    class OrderIterator : Iterator
+    {
+        private QuestionList _collection;
+
+        // Stores the current traversal position. An iterator may have a lot of
+        // other fields for storing iteration state, especially when it is
+        // supposed to work with a particular kind of collection.
+        private int _position = -1;
+
+        public OrderIterator(QuestionList collection)
+        {
+            this._collection = collection;
+        }
+
+        public override object Current()
+        {
+            return this._collection.getItems()[_position];
+        }
+
+        public override int Key()
+        {
+            return this._position;
+        }
+
+        public override bool MoveNext()
+        {
+            int updatedPosition = this._position +  1;
+
+            if (updatedPosition >= 0 && updatedPosition < this._collection.getItems().Count)
+            {
+                this._position = updatedPosition;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public override void Reset()
+        {
+            this._position =  0;
+        }
+    }
+
+    class QuestionList : IteratorAggregate
+    {
+        List<Question> _collection = new List<Question>();
+
+        public QuestionList()
+        {
+            Random random = new Random();
+            int minValue = 1;
+            int maxValue = 54;
+            int count = 7;
+
+            // Create a HashSet to store unique random numbers
+            HashSet<int> uniqueNumbers = new HashSet<int>();
+
+            while (uniqueNumbers.Count < count)
+            {
+                int randomNumber = random.Next(minValue, maxValue + 1);
+                uniqueNumbers.Add(randomNumber);
+            }
+
+            foreach (int number in uniqueNumbers)
+            {
+                this._collection.Add(new Question(number));
+            }
+        }
+
+        public List<Question> getItems()
+        {
+            return _collection;
+        }
+
+        public void AddItem(Question item)
+        {
+            this._collection.Add(item);
+        }
+
+        public override IEnumerator GetEnumerator()
+        {
+            return new OrderIterator(this);
+        }
+    }
+
     class Question
     {
         public const int nrA = 4;

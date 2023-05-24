@@ -15,6 +15,7 @@ namespace Proiect_Teste_Cultura_Generala
     {
         private delegate void SafeCallDelegate();
         private Question q;
+        private OrderIterator i;
         private int numQuestionsAnswered = 0;
         public static int numCorrectAnswers = 0;
         public bool waitflag = false;
@@ -27,6 +28,7 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void GridQuestionWindow_Load(object sender, EventArgs e)
         {
+            i = new OrderIterator(new QuestionList());
             NewQuestion();
         }
 
@@ -88,7 +90,8 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void NewQuestion()
         {
-            q = new Question();
+            i.MoveNext();
+            q = (Question)i.Current();
             QuestTextBox.Text = q.GetQuestion();
            
             List<string> answers = q.GetAnswers();

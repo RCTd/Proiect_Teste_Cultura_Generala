@@ -48,39 +48,39 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void svgButton1_Click(object sender, EventArgs e)
         {
-            Buttons_Click(1);
+            Buttons_Click(0);
         }
         private void svgButton2_Click(object sender, EventArgs e)
         {
-            Buttons_Click(2);
+            Buttons_Click(1);
         }
         private void svgButton3_Click(object sender, EventArgs e)
         {
-            Buttons_Click(3);
+            Buttons_Click(2);
         }
         private void svgButton4_Click(object sender, EventArgs e)
         {
-            Buttons_Click(4);
+            Buttons_Click(3);
         }
         private void svgButton5_Click(object sender, EventArgs e)
         {
-            Buttons_Click(5);
+            Buttons_Click(4);
         }
         private void svgButton6_Click(object sender, EventArgs e)
         {
-            Buttons_Click(6);
+            Buttons_Click(5);
         }
         private void svgButton7_Click(object sender, EventArgs e)
         {
-            Buttons_Click(7);
+            Buttons_Click(6);
         }
         private void svgButton8_Click(object sender, EventArgs e)
         {
-            Buttons_Click(8);
+            Buttons_Click(7);
         }
         private void svgButton9_Click(object sender, EventArgs e)
         {
-            Buttons_Click(9);
+            Buttons_Click(8);
         }
 
         private void button1_Click(object sender, EventArgs e)
