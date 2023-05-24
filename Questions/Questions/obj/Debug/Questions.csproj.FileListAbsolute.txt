@@ -1,0 +1,6 @@
+C:\Users\andre\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\Questions\Questions\bin\Debug\Questions.dll
+C:\Users\andre\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\Questions\Questions\bin\Debug\Questions.pdb
+C:\Users\andre\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\Questions\Questions\obj\Debug\Questions.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\Questions\Questions\obj\Debug\Questions.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\Questions\Questions\obj\Debug\Questions.dll
+C:\Users\andre\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\Questions\Questions\obj\Debug\Questions.pdb

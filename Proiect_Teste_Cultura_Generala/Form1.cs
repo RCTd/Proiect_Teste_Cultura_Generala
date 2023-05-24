@@ -19,12 +19,12 @@ namespace UIProiectIP
         {
             InitializeComponent();
         }
-        SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
+        //SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
 
 
         private void button_Start(object sender, EventArgs e)
         {
-            
+            /*
             String username, parola;
             username = txt_username.Text;
             parola=txt_parola.Text;
@@ -48,7 +48,7 @@ namespace UIProiectIP
                     mod.Owner = this;
                     mod.Show();
                     this.Hide();
-            
+            /*
                 }
                 else
                 {
@@ -66,7 +66,7 @@ namespace UIProiectIP
             {
                 _conn.Close();
             }
-            
+            */
             
         }
 
@@ -107,6 +107,11 @@ namespace UIProiectIP
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+              
         }
     }
 

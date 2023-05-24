@@ -77,7 +77,7 @@ namespace Proiect_Teste_Cultura_Generala
         //Methods
         private GraphicsPath GetFigurePath(Rectangle rect)
         {
-            SvgData SVGData = new SvgData(svgfilename);
+            SvgData.SvgData SVGData = new SvgData.SvgData(svgfilename);
             GraphicsPath path = SVGData.GetGraphicsPath();
             // Scale the GraphicsPath to fit the desired size
             float scaleX = (float)rect.Width / (SVGData.GetWidth() * 10f);

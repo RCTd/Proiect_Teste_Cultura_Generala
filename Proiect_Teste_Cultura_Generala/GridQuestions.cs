@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Questions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -63,9 +64,14 @@ namespace Proiect_Teste_Cultura_Generala
             {
                 if (numQuestionsAnswered == 6)
                 {
+                    if (q.CheckGoodAnswer(answer.Text) == Color.Green)
+                    {
+                        numCorrectAnswers++;
+                    }
                     numQuestionsAnswered = 0;
                     MessageBox.Show("Ai finalizat chestionarul despre aceasta regiune.\n" +
-                        "vei fi reidrectionat catre harta\n", "Atenție");
+                        "vei fi reidrectionat catre harta\n" +
+                        "Puncte adunate pana acum: " + numCorrectAnswers, "Atenție");
                     for(int i =0;i<9;i++)
                     {
                         if (Map.clicked[i] == true)
