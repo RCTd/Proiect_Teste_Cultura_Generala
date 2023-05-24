@@ -140,7 +140,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\Buttons\Atlantida.png" />
     <Content Include="Resources\Buttons\BWSVG\Layer1.svg" />
     <Content Include="Resources\Buttons\BWSVG\Layer2.svg" />
     <Content Include="Resources\Buttons\BWSVG\Layer3.svg" />
