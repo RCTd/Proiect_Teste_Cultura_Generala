@@ -17,15 +17,8 @@ namespace Proiect_Teste_Cultura_Generala
         private Question q;
         private int numQuestionsAnswered = 0;
         public static int numCorrectAnswers = 0;
-        public static bool aux1 = false;
-        public static bool aux2 = false;
-        public static bool aux3 = false;
-        public static bool aux4 = false;
-        public static bool aux5 = false;
-        public static bool aux6 = false;
-        public static bool aux7 = false;
-        public static bool aux8 = false;
-        public static bool aux9 = false;
+        public bool waitflag = false;
+        public static bool[] aux = { false, false, false, false, false, false, false, false, false};
 
         public GridQuestions()
         {
@@ -64,91 +57,54 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void CheckAnswer(Button answer)
         {
-            if (numQuestionsAnswered == 6)
+            if (!waitflag)
             {
-                numQuestionsAnswered = 0;
-                MessageBox.Show("Ai finalizat chestionarul despre aceasta regiune.\n" +
-                    "vei fi reidrectionat catre harta\n","Atenție");
-                if (Map.clicked1 == true)
+                if (numQuestionsAnswered == 6)
                 {
-                    aux1 = true;
+                    numQuestionsAnswered = 0;
+                    MessageBox.Show("Ai finalizat chestionarul despre aceasta regiune.\n" +
+                        "vei fi reidrectionat catre harta\n", "Atenție");
+                    for(int i =0;i<9;i++)
+                    {
+                        if (Map.clicked[i] == true)
+                        {
+                            aux[i] = true;
+                        }
+                    }
+                    Form mod = new Map();
+                    mod.Owner = this;
+                    mod.Show();
+                    this.Hide();
                 }
-                if (Map.clicked2 == true)
+                numQuestionsAnswered++;
+                if (q.CheckGoodAnswer(answer.Text) == Color.Green)
                 {
-                    aux2 = true;
+                    numCorrectAnswers++;
                 }
-                if (Map.clicked3 == true)
-                {
-                    aux3 = true;
-                }
-                if (Map.clicked4 == true)
-                {
-                    aux4 = true;
-                }
-                if (Map.clicked5 == true)
-                {
-                    aux5 = true;
-                }
-                if (Map.clicked6 == true)
-                {
-                    aux6 = true;
-                }
-                if (Map.clicked7 == true)
-                {
-                    aux7 = true;
-                }
-                if (Map.clicked8 == true)
-                {
-                    aux8 = true;
-                }
-                if (Map.clicked9 == true)
-                {
-                    aux9 = true;
-                }
-
-
-                Form mod = new Map();
-                mod.Owner = this;
-                mod.Show();
-                this.Hide();
+                timer1.Start();
+                waitflag = true;
             }
-            numQuestionsAnswered++;
-            if (q.CheckGoodAnswer(answer.Text) == Color.Green)
-            {
-                numCorrectAnswers++;
-            }
-            Task.Delay(1000).ContinueWith(t => NewQuestion());
         }
 
         private void NewQuestion()
         {
             q = new Question();
-            if (QuestTextBox.InvokeRequired)
-            {
-                var d = new SafeCallDelegate(NewQuestion);
-                QuestTextBox.Invoke(d);
-            }
-            else
-            {
-                QuestTextBox.Text = q.GetQuestion();
-            }
+            QuestTextBox.Text = q.GetQuestion();
+           
             List<string> answers = q.GetAnswers();
             Button[] answersBtn = { answer1, answer2, answer3, answer4 };
             for (int i = 0; i < q.GetNumberOfAnswers(); i++)
             {
-                if (answersBtn[i].InvokeRequired)
-                {
-                    var d = new SafeCallDelegate(NewQuestion);
-                    answersBtn[i].Invoke(d);
-                }
-                else
-                {
-                    answersBtn[i].Text = answers[i];
-                    answersBtn[i].BackColor = Color.White;
-                }
+                answersBtn[i].Text = answers[i];
+                answersBtn[i].BackColor = Color.White;
             }
         }
 
-    
+        private void timer1_Tick(object sender, EventArgs e)
+        {   
+            NewQuestion();
+            timer1.Stop();
+            waitflag = false;
+        }
     }
 }
