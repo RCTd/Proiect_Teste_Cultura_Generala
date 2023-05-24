@@ -13,10 +13,12 @@ namespace Proiect_Teste_Cultura_Generala
 {
     public partial class GridQuestions : Form
     {
+        private delegate void SafeCallDelegate();
         private Question q;
-        private bool pressFlag = false;
         private int numQuestionsAnswered = 0;
-        private static int numCorrectAnswers = 0;
+        public static int numCorrectAnswers = 0;
+        public bool waitflag = false;
+        public static bool[] aux = { false, false, false, false, false, false, false, false, false};
 
         public GridQuestions()
         {
@@ -55,51 +57,54 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void CheckAnswer(Button answer)
         {
-            if (!pressFlag)
+            if (!waitflag)
             {
-                pressFlag = true;
-                //answer.BackColor = q.CheckGoodAnswer(answer.Text);
+                if (numQuestionsAnswered == 6)
+                {
+                    numQuestionsAnswered = 0;
+                    MessageBox.Show("Ai finalizat chestionarul despre aceasta regiune.\n" +
+                        "vei fi reidrectionat catre harta\n", "Atenție");
+                    for(int i =0;i<9;i++)
+                    {
+                        if (Map.clicked[i] == true)
+                        {
+                            aux[i] = true;
+                        }
+                    }
+                    Form mod = new Map();
+                    mod.Owner = this;
+                    mod.Show();
+                    this.Hide();
+                }
                 numQuestionsAnswered++;
                 if (q.CheckGoodAnswer(answer.Text) == Color.Green)
                 {
                     numCorrectAnswers++;
                 }
                 timer1.Start();
+                waitflag = true;
             }
         }
 
         private void NewQuestion()
         {
-            if (numQuestionsAnswered == 6)
+            q = new Question();
+            QuestTextBox.Text = q.GetQuestion();
+           
+            List<string> answers = q.GetAnswers();
+            Button[] answersBtn = { answer1, answer2, answer3, answer4 };
+            for (int i = 0; i < q.GetNumberOfAnswers(); i++)
             {
-                numQuestionsAnswered = 0;
-                MessageBox.Show("Ai finalizat chestionarul despre aceasta regiune.\n" +
-                    "vei fi reidrectionat catre harta\n" +
-                    "Scorul provizoriu: " + numCorrectAnswers, "Atenție");
-                Form mod = new Map();
-                mod.Owner = this;
-                mod.Show();
-                this.Hide();
-            }
-            else
-            {
-                pressFlag = false;
-                q = new Question();
-                QuestTextBox.Text = q.GetQuestion();
-                List<string> answers = q.GetAnswers();
-                Button[] answersBtn = { answer1, answer2, answer3, answer4 };
-                for (int i = 0; i < q.GetNumberOfAnswers(); i++)
-                {
-                    answersBtn[i].Text = answers[i];
-                    answersBtn[i].BackColor = Color.White;
-                }
+                answersBtn[i].Text = answers[i];
+                answersBtn[i].BackColor = Color.White;
             }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
-        {
+        {   
             NewQuestion();
             timer1.Stop();
+            waitflag = false;
         }
     }
 }

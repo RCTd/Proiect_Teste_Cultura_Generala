@@ -19,7 +19,7 @@ namespace Proiect_Teste_Cultura_Generala.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -61,18 +61,23 @@ namespace Proiect_Teste_Cultura_Generala.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 32 4	Intrebari Raspunsuri		//Format: Intrebare? R.Corect / R.Gresit / R.Gresit / R.Gresit 
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap final {
+            get {
+                object obj = ResourceManager.GetObject("final", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 54  4	Intrebari Raspunsuri		//Format: Intrebare? R.Corect / R.Gresit / R.Gresit / R.Gresit 
         ///
         ///
-        ///What is the name of Mickey Mouse&apos;s pet dog? Pluto / Goofy / Bolt / Scooby
-        ///Cum se numește câinele de companie al lui Mickey Mouse? Pluto / Goofy / Bolt / Scooby
+        ///Care este numele cetății medievale din Suceava, renumită pentru rolul său în istoria Moldovei și pentru frumusețea sa arhitecturală?  Cetatea de Scaun /  Cetatea Soroca /  Cetatea Neamtului  /  Cetatea Alba Carolina
         ///
         ///
-        ///What is the last letter of the Greek alphabet? Omega / Ghamma / Alpha / Theta
-        ///Care este ultima litera a alfabetului grcesc? Omega / Gama / Alfa / Teta
-        ///
-        ///
-        ///Which Disney movie has had the most sequels? Toy Story / Cars / Monsters, Inc. / The Incredib [rest of string was truncated]&quot;;.
+        ///Care este denumirea rezervației naturale situată în județul Suceava, care protejează una dintre cele mai valoroase păduri virgine din Europa?  Rezervația Naturală Slatioara/ Rezervația Naturală  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Grid_Questions {
             get {

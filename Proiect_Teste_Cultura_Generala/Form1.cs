@@ -24,6 +24,7 @@ namespace UIProiectIP
 
         private void button_Start(object sender, EventArgs e)
         {
+            
             String username, parola;
             username = txt_username.Text;
             parola=txt_parola.Text;
@@ -42,11 +43,12 @@ namespace UIProiectIP
                     //incarca formul urmator
                     //Map form2 = new Map();
                     //form2.Show();
-                    //this.Hide();
+                    //this.Hide();*/
                     Map mod = new Map();
                     mod.Owner = this;
                     mod.Show();
                     this.Hide();
+            
                 }
                 else
                 {
@@ -64,12 +66,12 @@ namespace UIProiectIP
             {
                 _conn.Close();
             }
-
+            
             
         }
 
         private void buttonSingUp_Click(object sender, EventArgs e)
-        {
+        {/*
             try
             {
                 String InsertQuerry = "Insert into Login_pass(username,parola)Values('" + txt_username.Text + "','" + txt_parola.Text + "')";
@@ -89,8 +91,23 @@ namespace UIProiectIP
             {
                 _conn.Close();
             }
+            */
+        }
+
+        private void buttonHelp(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "../../Resources/Conquistador.chm");
+        }
+
+        private void button_Scor(object sender, EventArgs e)
+        {
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }
