@@ -51,10 +51,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton1.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton1.ForeColor = System.Drawing.Color.White;
-            this.svgButton1.Location = new System.Drawing.Point(456, 4);
-            this.svgButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton1.Location = new System.Drawing.Point(342, 3);
             this.svgButton1.Name = "svgButton1";
-            this.svgButton1.Size = new System.Drawing.Size(211, 128);
+            this.svgButton1.Size = new System.Drawing.Size(158, 104);
             this.svgButton1.Svgfilename = "../../Resources/Buttons/BWSVG/Layer1.svg";
             this.svgButton1.TabIndex = 2;
             this.svgButton1.Text = "Bucovina";
@@ -72,10 +71,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton2.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton2.ForeColor = System.Drawing.Color.White;
-            this.svgButton2.Location = new System.Drawing.Point(212, 16);
-            this.svgButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton2.Location = new System.Drawing.Point(159, 13);
             this.svgButton2.Name = "svgButton2";
-            this.svgButton2.Size = new System.Drawing.Size(247, 84);
+            this.svgButton2.Size = new System.Drawing.Size(185, 68);
             this.svgButton2.Svgfilename = "../../Resources/Buttons/BWSVG/Layer2.svg";
             this.svgButton2.TabIndex = 3;
             this.svgButton2.Text = "Maramures";
@@ -93,10 +91,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton3.Font = new System.Drawing.Font("Pristina", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton3.ForeColor = System.Drawing.Color.White;
-            this.svgButton3.Location = new System.Drawing.Point(64, 66);
-            this.svgButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton3.Location = new System.Drawing.Point(48, 54);
             this.svgButton3.Name = "svgButton3";
-            this.svgButton3.Size = new System.Drawing.Size(185, 182);
+            this.svgButton3.Size = new System.Drawing.Size(139, 148);
             this.svgButton3.Svgfilename = "../../Resources/Buttons/BWSVG/Layer3.svg";
             this.svgButton3.TabIndex = 4;
             this.svgButton3.Text = "Crisana";
@@ -115,10 +112,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton4.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton4.ForeColor = System.Drawing.Color.White;
-            this.svgButton4.Location = new System.Drawing.Point(24, 218);
-            this.svgButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton4.Location = new System.Drawing.Point(18, 177);
             this.svgButton4.Name = "svgButton4";
-            this.svgButton4.Size = new System.Drawing.Size(209, 181);
+            this.svgButton4.Size = new System.Drawing.Size(157, 147);
             this.svgButton4.Svgfilename = "../../Resources/Buttons/BWSVG/Layer4.svg";
             this.svgButton4.TabIndex = 5;
             this.svgButton4.Text = "Banat";
@@ -136,10 +132,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton5.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton5.ForeColor = System.Drawing.Color.White;
-            this.svgButton5.Location = new System.Drawing.Point(212, 75);
-            this.svgButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton5.Location = new System.Drawing.Point(159, 61);
             this.svgButton5.Name = "svgButton5";
-            this.svgButton5.Size = new System.Drawing.Size(371, 255);
+            this.svgButton5.Size = new System.Drawing.Size(278, 207);
             this.svgButton5.Svgfilename = "../../Resources/Buttons/BWSVG/Layer5.svg";
             this.svgButton5.TabIndex = 6;
             this.svgButton5.Text = "Transilvania";
@@ -157,10 +152,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton6.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton6.ForeColor = System.Drawing.Color.White;
-            this.svgButton6.Location = new System.Drawing.Point(519, 86);
-            this.svgButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton6.Location = new System.Drawing.Point(389, 70);
             this.svgButton6.Name = "svgButton6";
-            this.svgButton6.Size = new System.Drawing.Size(229, 233);
+            this.svgButton6.Size = new System.Drawing.Size(172, 189);
             this.svgButton6.Svgfilename = "../../Resources/Buttons/BWSVG/Layer6.svg";
             this.svgButton6.TabIndex = 7;
             this.svgButton6.Text = "Moldova";
@@ -178,10 +172,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton7.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton7.ForeColor = System.Drawing.Color.White;
-            this.svgButton7.Location = new System.Drawing.Point(669, 318);
-            this.svgButton7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton7.Location = new System.Drawing.Point(502, 258);
             this.svgButton7.Name = "svgButton7";
-            this.svgButton7.Size = new System.Drawing.Size(212, 188);
+            this.svgButton7.Size = new System.Drawing.Size(159, 153);
             this.svgButton7.Svgfilename = "../../Resources/Buttons/BWSVG/Layer7.svg";
             this.svgButton7.TabIndex = 8;
             this.svgButton7.Text = "Dobrogea";
@@ -199,10 +192,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton8.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton8.ForeColor = System.Drawing.Color.White;
-            this.svgButton8.Location = new System.Drawing.Point(397, 282);
-            this.svgButton8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton8.Location = new System.Drawing.Point(298, 229);
             this.svgButton8.Name = "svgButton8";
-            this.svgButton8.Size = new System.Drawing.Size(344, 235);
+            this.svgButton8.Size = new System.Drawing.Size(258, 191);
             this.svgButton8.Svgfilename = "../../Resources/Buttons/BWSVG/Layer8.svg";
             this.svgButton8.TabIndex = 9;
             this.svgButton8.Text = "Muntenia";
@@ -220,10 +212,9 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton9.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.svgButton9.ForeColor = System.Drawing.Color.White;
-            this.svgButton9.Location = new System.Drawing.Point(169, 306);
-            this.svgButton9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.svgButton9.Location = new System.Drawing.Point(127, 249);
             this.svgButton9.Name = "svgButton9";
-            this.svgButton9.Size = new System.Drawing.Size(257, 203);
+            this.svgButton9.Size = new System.Drawing.Size(193, 165);
             this.svgButton9.Svgfilename = "../../Resources/Buttons/BWSVG/Layer9.svg";
             this.svgButton9.TabIndex = 10;
             this.svgButton9.Text = "Oltenia";
@@ -233,10 +224,9 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(24, 533);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(18, 433);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 37);
+            this.button1.Size = new System.Drawing.Size(86, 30);
             this.button1.TabIndex = 11;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = true;
@@ -244,9 +234,9 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // Map
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 585);
+            this.ClientSize = new System.Drawing.Size(725, 475);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.svgButton1);
             this.Controls.Add(this.svgButton2);
@@ -257,7 +247,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.Controls.Add(this.svgButton7);
             this.Controls.Add(this.svgButton8);
             this.Controls.Add(this.svgButton9);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Map";
             this.Text = "Map";
             this.Load += new System.EventHandler(this.Map_Load);

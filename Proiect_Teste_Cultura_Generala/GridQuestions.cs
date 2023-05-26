@@ -35,9 +35,15 @@ namespace Proiect_Teste_Cultura_Generala
             InitializeComponent();
         }
 
+        public GridQuestions(int selectedButton)
+        {
+            region = selectedButton;
+            InitializeComponent();
+        }
+
         private void GridQuestionWindow_Load(object sender, EventArgs e)
         {
-            i = new OrderIterator(new QuestionList());
+            i = new OrderIterator(new QuestionList(region));
             NewQuestion();
         }
 
