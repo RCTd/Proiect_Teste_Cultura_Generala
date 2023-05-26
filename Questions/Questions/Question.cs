@@ -91,10 +91,10 @@ namespace Questions
 
             // Create a HashSet to store unique random numbers
             HashSet<int> uniqueNumbers = new HashSet<int>();
-
+            int randomNumber;
             while (uniqueNumbers.Count < count)
             {
-                int randomNumber = random.Next(minValue, maxValue + 1);
+                randomNumber = random.Next(minValue, maxValue + 1);
                 uniqueNumbers.Add(randomNumber);
             }
 
@@ -184,11 +184,12 @@ namespace Questions
 
         void Shuffle(List<string> list)
         {
+            Random random = new Random();
             int n = list.Count;
             while (n > 1)
             {
                 n--;
-                int k = rnd.Next(n + 1);
+                int k = random.Next(n + 1);
                 string value = list[k];
                 list[k] = list[n];
                 list[n] = value;

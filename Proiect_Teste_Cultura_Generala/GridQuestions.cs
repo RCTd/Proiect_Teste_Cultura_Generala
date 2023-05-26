@@ -51,11 +51,10 @@ namespace Proiect_Teste_Cultura_Generala
             CheckAnswer(answer1);
         }
 
-        private void answear2_Click(object sender, EventArgs e)
+        private void answer2_Click(object sender, EventArgs e)
         {
             CheckAnswer(answer2);
         }
-
         private void answer3_Click(object sender, EventArgs e)
         {
             CheckAnswer(answer3);
@@ -70,7 +69,7 @@ namespace Proiect_Teste_Cultura_Generala
         {
             if (!waitflag)
             {
-                
+                answer.BackColor = q.CheckGoodAnswer(answer.Text);
                 if (q.CheckGoodAnswer(answer.Text) == Color.Green)
                 {
                     numCorrectAnswers++;
@@ -123,5 +122,7 @@ namespace Proiect_Teste_Cultura_Generala
             timer1.Stop();
             waitflag = false;
         }
+
+        
     }
 }
