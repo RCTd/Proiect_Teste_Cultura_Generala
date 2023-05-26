@@ -21,7 +21,7 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void Map_Load(object sender, EventArgs e)
         {
-            SvgButton[] svgButtons = { svgButton1, svgButton2, svgButton4, svgButton4, svgButton5, svgButton6, svgButton7, svgButton8, svgButton9 };
+            SvgButton[] svgButtons = { svgButton1, svgButton2, svgButton3, svgButton4, svgButton5, svgButton6, svgButton7, svgButton8, svgButton9 };
             for (int i = 0; i < 9; i++)
             {
                 if (clicked[i] == true)
@@ -32,7 +32,7 @@ namespace Proiect_Teste_Cultura_Generala
         }
         private void Buttons_Click(int i)
         {
-            GridQuestions grid = new GridQuestions();
+            GridQuestions grid = new GridQuestions(i);
             if (clicked[i] == false)
             {
                 grid.Owner = this;
@@ -66,7 +66,7 @@ namespace Proiect_Teste_Cultura_Generala
         {
             Buttons_Click(4);
         }
-        private void svgButton6_Click(object sender, EventArgs e)
+        private void svgButton6_Click(object sender, EventArgs e) 
         {
             Buttons_Click(5);
         }

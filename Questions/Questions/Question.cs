@@ -82,12 +82,12 @@ namespace Questions
     {
         List<Question> _collection = new List<Question>();
 
-        public QuestionList()
+        public QuestionList(int range)
         {
             Random random = new Random();
-            int minValue = 1;
-            int maxValue = 54;
-            int count = 7;
+            int minValue = range*6+1;
+            int maxValue = (range+1)*6;
+            int count = 6;
 
             // Create a HashSet to store unique random numbers
             HashSet<int> uniqueNumbers = new HashSet<int>();

@@ -17,8 +17,9 @@ namespace Proiect_Teste_Cultura_Generala
         private delegate void SafeCallDelegate();
         private Question q;
         private OrderIterator i;
+        private int region=0;
         private int numQuestionsAnswered = 0;
-        public static int numCorrectAnswers = 0;
+        public int numCorrectAnswers = 0;
         public bool waitflag = false;
         public static bool[] aux = { false, false, false, false, false, false, false, false, false};
 
@@ -27,9 +28,15 @@ namespace Proiect_Teste_Cultura_Generala
             InitializeComponent();
         }
 
+        public GridQuestions(int selectedButton)
+        {
+            region = selectedButton;
+            InitializeComponent();
+        }
+
         private void GridQuestionWindow_Load(object sender, EventArgs e)
         {
-            i = new OrderIterator(new QuestionList());
+            i = new OrderIterator(new QuestionList(region));
             NewQuestion();
         }
 
@@ -62,7 +69,7 @@ namespace Proiect_Teste_Cultura_Generala
         {
             if (!waitflag)
             {
-                if (numQuestionsAnswered == 6)
+                if (numQuestionsAnswered == 5)
                 {
                     if (q.CheckGoodAnswer(answer.Text) == Color.Green)
                     {
