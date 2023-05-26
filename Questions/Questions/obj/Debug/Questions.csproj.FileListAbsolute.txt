@@ -4,3 +4,9 @@ C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Questions\Questions\obj\Debug\
 C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Questions\Questions\obj\Debug\Questions.dll
 C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Questions\Questions\obj\Debug\Questions.pdb
 C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Questions\Questions\obj\Debug\Questions.csproj.AssemblyReference.cache
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Questions\Questions\bin\Debug\Questions.dll
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Questions\Questions\bin\Debug\Questions.pdb
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Questions\Questions\obj\Debug\Questions.csproj.AssemblyReference.cache
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Questions\Questions\obj\Debug\Questions.csproj.CoreCompileInputs.cache
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Questions\Questions\obj\Debug\Questions.dll
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Questions\Questions\obj\Debug\Questions.pdb
