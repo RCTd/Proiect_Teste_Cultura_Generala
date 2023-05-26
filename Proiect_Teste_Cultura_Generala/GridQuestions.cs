@@ -17,13 +17,21 @@ namespace Proiect_Teste_Cultura_Generala
         private delegate void SafeCallDelegate();
         private Question q;
         private OrderIterator i;
+        private int _pos;
         private int numQuestionsAnswered = 0;
-        public static int numCorrectAnswers = 0;
+        public  int numCorrectAnswers = 0;
         public bool waitflag = false;
         public static bool[] aux = { false, false, false, false, false, false, false, false, false};
+        public int[] _answersArray;
 
         public GridQuestions()
         {
+            InitializeComponent();
+        }
+        public GridQuestions(int[] v,int pos)
+        {
+            _pos = pos;
+            _answersArray = v;
             InitializeComponent();
         }
 
@@ -62,12 +70,14 @@ namespace Proiect_Teste_Cultura_Generala
         {
             if (!waitflag)
             {
+                
+                if (q.CheckGoodAnswer(answer.Text) == Color.Green)
+                {
+                    numCorrectAnswers++;
+                }
+                numQuestionsAnswered++;
                 if (numQuestionsAnswered == 6)
                 {
-                    if (q.CheckGoodAnswer(answer.Text) == Color.Green)
-                    {
-                        numCorrectAnswers++;
-                    }
                     numQuestionsAnswered = 0;
                     MessageBox.Show("Ai finalizat chestionarul despre aceasta regiune.\n" +
                         "vei fi reidrectionat catre harta\n" +
@@ -79,16 +89,14 @@ namespace Proiect_Teste_Cultura_Generala
                             aux[i] = true;
                         }
                     }
-                    Form mod = new Map();
+                    _answersArray[_pos] = numCorrectAnswers;
+                    Form mod = new Map(_answersArray);
                     mod.Owner = this;
                     mod.Show();
                     this.Hide();
                 }
-                numQuestionsAnswered++;
-                if (q.CheckGoodAnswer(answer.Text) == Color.Green)
-                {
-                    numCorrectAnswers++;
-                }
+               
+                
                 timer1.Start();
                 waitflag = true;
             }

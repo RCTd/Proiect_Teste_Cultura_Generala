@@ -1,4 +1,20 @@
-﻿using Proiect_Teste_Cultura_Generala;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Form1.cs                                                 *
+ *  Copyright:   (c) 2023,                                                *
+ *  Description:  Joc de cultura generala "conQUIZtador"                  *
+ *                                                                        *
+ *                                                                        *
+ *  This code and information is provided "as is" without warranty of     *
+ *  any kind, either expressed or implied, including but not limited      *
+ *  to the implied warranties of merchantability or fitness for a         *
+ *  particular purpose. You are free to use this source code in your      *
+ *  applications as long as the original copyright notice is included.    *
+ *                                                                        *
+ **************************************************************************/
+
+
+using Proiect_Teste_Cultura_Generala;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,12 +35,12 @@ namespace UIProiectIP
         {
             InitializeComponent();
         }
-        //SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
+        SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
 
 
         private void button_Start(object sender, EventArgs e)
         {
-            /*
+            
             String username, parola;
             username = txt_username.Text;
             parola=txt_parola.Text;
@@ -48,7 +64,7 @@ namespace UIProiectIP
                     mod.Owner = this;
                     mod.Show();
                     this.Hide();
-            /*
+            
                 }
                 else
                 {
@@ -66,12 +82,12 @@ namespace UIProiectIP
             {
                 _conn.Close();
             }
-            */
+            
             
         }
 
         private void buttonSingUp_Click(object sender, EventArgs e)
-        {/*
+        {
             try
             {
                 String InsertQuerry = "Insert into Login_pass(username,parola)Values('" + txt_username.Text + "','" + txt_parola.Text + "')";
@@ -81,17 +97,17 @@ namespace UIProiectIP
                 _conn.Close();
                 MessageBox.Show("Contul a fost facut, acum poti da START");
             }
-            catch(SqlException ex) when (ex.Number == 2627)
+            catch (SqlException ex) when (ex.Number == 2627)
             {
-               MessageBox.Show("Acest username nu este valabil, incercati altul! ");
-               
+                MessageBox.Show("Acest username nu este valabil, incercati altul! ");
+
 
             }
             finally
             {
                 _conn.Close();
             }
-            */
+
         }
 
         private void buttonHelp(object sender, EventArgs e)
@@ -104,15 +120,6 @@ namespace UIProiectIP
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-              
-        }
     }
 
 }

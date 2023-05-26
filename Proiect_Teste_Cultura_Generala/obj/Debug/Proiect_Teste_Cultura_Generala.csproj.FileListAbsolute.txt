@@ -169,3 +169,5 @@ C:\Users\andre\Source\Repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\
 C:\Users\andre\Source\Repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\obj\Debug\Proiect_Teste_Cultura_Generala.pdb
 C:\Users\andre\Source\Repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\Questions.pdb
 C:\Users\andre\Source\Repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\SvgData.pdb
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\Questions.pdb
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\SvgData.pdb

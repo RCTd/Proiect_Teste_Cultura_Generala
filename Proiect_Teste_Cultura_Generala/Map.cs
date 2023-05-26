@@ -14,25 +14,44 @@ namespace Proiect_Teste_Cultura_Generala
     public partial class Map : Form
     {
         public static bool[] clicked = { false, false, false, false, false, false, false, false, false, };
+        int[] _answersArray ={ 0,0,0,0,0,0,0,0,0};
         public Map()
         {
+            InitializeComponent();
+        }
+        public Map(int[] v)
+        {
+            _answersArray = v;
             InitializeComponent();
         }
 
         private void Map_Load(object sender, EventArgs e)
         {
-            SvgButton[] svgButtons = { svgButton1, svgButton2, svgButton4, svgButton4, svgButton5, svgButton6, svgButton7, svgButton8, svgButton9 };
+            SvgButton[] svgButtons = { svgButton1, svgButton2, svgButton3, svgButton4, svgButton5, svgButton6, svgButton7, svgButton8, svgButton9 };
             for (int i = 0; i < 9; i++)
             {
                 if (clicked[i] == true)
+                    if (_answersArray[i] <2)
                 {
-                    svgButtons[i].BackColor = Color.Green;
+                    svgButtons[i].BackColor = Color.Red;
                 }
+                    else
+                    {
+                        if (_answersArray[i] <=4)
+                        {
+                            svgButtons[i].BackColor = Color.Yellow;
+                        }
+                        else
+                        {
+                            svgButtons[i].BackColor = Color.Green;
+                        }
+                    }
+
             }
         }
         private void Buttons_Click(int i)
         {
-            GridQuestions grid = new GridQuestions();
+            GridQuestions grid = new GridQuestions(_answersArray,i);
             if (clicked[i] == false)
             {
                 grid.Owner = this;
