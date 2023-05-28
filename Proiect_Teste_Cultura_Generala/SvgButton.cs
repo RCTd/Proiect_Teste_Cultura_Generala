@@ -1,4 +1,20 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Form1.cs                                                 *
+ *  Copyright:   (c) 2023, Tudusciuc Cristian-Rafael                      *
+ *  Description:  Joc de cultura generala "conQUIZtador"                  *
+ *                                                                        *
+ *                                                                        *
+ *  Acest cod este scris în scopul realizării jocului de cultură generală *
+ *  din cadrul proiectului la materia Ingineria Programării, de la        *
+ *  Facultatea de Automatică și Calculatoare, Univeristatea Tehnică       *
+ *  "Gheorghe Asachi" Iași. Codul este opensource și gratis, se poate     *
+ *  poate modifica și utiliza oricum, dar în concordanță cu prevederile   * 
+ *  GNU General Public License.                                           *
+ *                                                                        *
+ **************************************************************************/
+
+using System;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;

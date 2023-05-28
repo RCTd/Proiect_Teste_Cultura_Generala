@@ -1,4 +1,20 @@
-﻿using Questions;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Form1.cs                                                 *
+ *  Copyright:   (c) 2023, Potolea Andreea                                *
+ *  Description:  Joc de cultura generala "conQUIZtador"                  *
+ *                                                                        *
+ *                                                                        *
+ *  Acest cod este scris în scopul realizării jocului de cultură generală *
+ *  din cadrul proiectului la materia Ingineria Programării, de la        *
+ *  Facultatea de Automatică și Calculatoare, Univeristatea Tehnică       *
+ *  "Gheorghe Asachi" Iași. Codul este opensource și gratis, se poate     *
+ *  poate modifica și utiliza oricum, dar în concordanță cu prevederile   * 
+ *  GNU General Public License.                                           *
+ *                                                                        *
+ **************************************************************************/
+
+using Questions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,19 +31,25 @@ namespace Proiect_Teste_Cultura_Generala
     public partial class GridQuestions : Form
     {
         private delegate void SafeCallDelegate();
-        private Question q;
-        private OrderIterator i;
+        private Question _q;
+        private OrderIterator _i;
         private int _pos;
-        private int numQuestionsAnswered = 0;
+        private int _numQuestionsAnswered = 0;
         public  int numCorrectAnswers = 0;
-        public bool waitflag = false;
-        public static bool[] aux = { false, false, false, false, false, false, false, false, false};
+        public bool isWaitflag = false;
+        public static bool[] isAux = { false, false, false, false, false, false, false, false, false};
         public int[] _answersArray;
 
         public GridQuestions()
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// Construct cu parametrii 
+        /// </summary>
+        /// <param name="v"></param>
+        /// <param name="pos"></param>
         public GridQuestions(int[] v,int pos)
         {
             _pos = pos;
@@ -37,13 +59,8 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void GridQuestionWindow_Load(object sender, EventArgs e)
         {
-            i = new OrderIterator(new QuestionList(_pos));
+            _i = new OrderIterator(new QuestionList(_pos));
             NewQuestion();
-        }
-
-        private void QuestTextBox_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void answear1_Click(object sender, EventArgs e)
@@ -67,25 +84,25 @@ namespace Proiect_Teste_Cultura_Generala
 
         private void CheckAnswer(Button answer)
         {
-            if (!waitflag)
+            if (!isWaitflag)
             {
-                answer.BackColor = q.CheckGoodAnswer(answer.Text);
-                if (q.CheckGoodAnswer(answer.Text) == Color.Green)
+                answer.BackColor = _q.CheckGoodAnswer(answer.Text);
+                if (_q.CheckGoodAnswer(answer.Text) == Color.Green)
                 {
                     numCorrectAnswers++;
                 }
-                numQuestionsAnswered++;
-                if (numQuestionsAnswered == 6)
+                _numQuestionsAnswered++;
+                if (_numQuestionsAnswered == 6)
                 {
-                    numQuestionsAnswered = 0;
+                    _numQuestionsAnswered = 0;
                     MessageBox.Show("Ai finalizat chestionarul despre aceasta regiune.\n" +
                         "vei fi reidrectionat catre harta\n" +
                         "Puncte adunate pana acum: " + numCorrectAnswers, "Atenție");
                     for(int i =0;i<9;i++)
                     {
-                        if (Map.clicked[i] == true)
+                        if (Map.isClicked[i] == true)
                         {
-                            aux[i] = true;
+                            isAux[i] = true;
                         }
                     }
                     _answersArray[_pos] = numCorrectAnswers;
@@ -97,19 +114,19 @@ namespace Proiect_Teste_Cultura_Generala
                
                 
                 timer1.Start();
-                waitflag = true;
+                isWaitflag = true;
             }
         }
 
         private void NewQuestion()
         {
-            i.MoveNext();
-            q = (Question)i.Current();
-            QuestTextBox.Text = q.GetQuestion();
+            _i.MoveNext();
+            _q = (Question)_i.Current();
+            QuestTextBox.Text = _q.GetQuestion();
            
-            List<string> answers = q.GetAnswers();
+            List<string> answers = _q.GetAnswers();
             Button[] answersBtn = { answer1, answer2, answer3, answer4 };
-            for (int i = 0; i < q.GetNumberOfAnswers(); i++)
+            for (int i = 0; i < _q.GetNumberOfAnswers(); i++)
             {
                 answersBtn[i].Text = answers[i];
                 answersBtn[i].BackColor = Color.White;
@@ -120,7 +137,7 @@ namespace Proiect_Teste_Cultura_Generala
         {   
             NewQuestion();
             timer1.Stop();
-            waitflag = false;
+            isWaitflag = false;
         }
 
         

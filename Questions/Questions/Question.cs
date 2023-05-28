@@ -1,4 +1,20 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Form1.cs                                                 *
+ *  Copyright:   (c) 2023, Potolea Andreea                                *
+ *  Description:  Joc de cultura generala "conQUIZtador"                  *
+ *                                                                        *
+ *                                                                        *
+ *  Acest cod este scris în scopul realizării jocului de cultură generală *
+ *  din cadrul proiectului la materia Ingineria Programării, de la        *
+ *  Facultatea de Automatică și Calculatoare, Univeristatea Tehnică       *
+ *  "Gheorghe Asachi" Iași. Codul este opensource și gratis, se poate     *
+ *  poate modifica și utiliza oricum, dar în concordanță cu prevederile   * 
+ *  GNU General Public License.                                           *
+ *                                                                        *
+ **************************************************************************/
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
@@ -125,13 +141,13 @@ namespace Questions
         public const int nrA = 4;
         private string _question, _goodA;
         private List<string> _badA = new List<string>();
-        private Random rnd = new Random();
+        private Random _rnd = new Random();
         private string[] lines = File.ReadAllLines("../../Resources/Grid_Questions.txt");//Properties.Resources.Grid_Questions
 
         public Question()
         {
             int numberOfQuestions = Int32.Parse(lines[0].Substring(0, lines[0].IndexOf(' ')));
-            int nrQ = rnd.Next(1, numberOfQuestions);
+            int nrQ = _rnd.Next(1, numberOfQuestions);
             Init(nrQ);
 
         }

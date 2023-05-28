@@ -1,15 +1,16 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        Form1.cs                                                 *
- *  Copyright:   (c) 2023, Echipa 18                                      *
+ *  Copyright:   (c) 2023, Barcan Nicoleta-Gabriela                       *
  *  Description:  Joc de cultura generala "conQUIZtador"                  *
  *                                                                        *
  *                                                                        *
- *  This code and information is provided "as is" without warranty of     *
- *  any kind, either expressed or implied, including but not limited      *
- *  to the implied warranties of merchantability or fitness for a         *
- *  particular purpose. You are free to use this source code in your      *
- *  applications as long as the original copyright notice is included.    *
+ *  Acest cod este scris în scopul realizării jocului de cultură generală *
+ *  din cadrul proiectului la materia Ingineria Programării, de la        *
+ *  Facultatea de Automatică și Calculatoare, Univeristatea Tehnică       *
+ *  "Gheorghe Asachi" Iași. Codul este opensource și gratis, se poate     *
+ *  poate modifica și utiliza oricum, dar în concordanță cu prevederile   * 
+ *  GNU General Public License.                                           *
  *                                                                        *
  **************************************************************************/
 
@@ -37,7 +38,12 @@ namespace UIProiectIP
         }
         SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
 
-
+        /// <summary>
+        /// Logica de verificare a existentei unui utilizator in baza de date 
+        /// si de schimbare intre interfata de inceput si cea cu harta
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button_Start(object sender, EventArgs e)
         {
             
@@ -56,10 +62,6 @@ namespace UIProiectIP
                     username = txt_username.Text;
                     parola = txt_parola.Text;
 
-                    //incarca formul urmator
-                    //Map form2 = new Map();
-                    //form2.Show();
-                    //this.Hide();*/
                     Map mod = new Map();
                     mod.Owner = this;
                     mod.Show();
@@ -69,8 +71,8 @@ namespace UIProiectIP
                 else
                 {
                     MessageBox.Show("Parola sau Username gresite sau nu ai cont");
-                    //txt_username.Clear();
-                    //txt_parola.Clear();
+                    txt_username.Clear();
+                    txt_parola.Clear();
                 }
 
             }
@@ -85,7 +87,11 @@ namespace UIProiectIP
             
             
         }
-
+        /// <summary>
+        /// Functia de inscriere a unui nou utilizator in baza de date 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonSingUp_Click(object sender, EventArgs e)
         {
             try
@@ -109,16 +115,16 @@ namespace UIProiectIP
             }
 
         }
-
+        /// <summary>
+        /// Functia pentru accesarea fisierului facut in Helpndoc pentru butonul Help
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonHelp(object sender, EventArgs e)
         {
             Help.ShowHelp(this, "../../Resources/Conquistador.chm");
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 
 }

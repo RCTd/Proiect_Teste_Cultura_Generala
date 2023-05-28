@@ -1,4 +1,20 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Map.cs                                                 *
+ *  Copyright:   (c) 2023, Tudusciuc Cristian-Rafael                      *
+ *  Description:  Joc de cultura generala "conQUIZtador"                  *
+ *                                                                        *
+ *                                                                        *
+ *  Acest cod este scris în scopul realizării jocului de cultură generală *
+ *  din cadrul proiectului la materia Ingineria Programării, de la        *
+ *  Facultatea de Automatică și Calculatoare, Univeristatea Tehnică       *
+ *  "Gheorghe Asachi" Iași. Codul este opensource și gratis, se poate     *
+ *  poate modifica și utiliza oricum, dar în concordanță cu prevederile   * 
+ *  GNU General Public License.                                           *
+ *                                                                        *
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +29,7 @@ namespace Proiect_Teste_Cultura_Generala
 {
     public partial class Map : Form
     {
-        public static bool[] clicked = { false, false, false, false, false, false, false, false, false, };
+        public static bool[] isClicked = { false, false, false, false, false, false, false, false, false, };
         int[] _answersArray ={ 0,0,0,0,0,0,0,0,0};
         public Map()
         {
@@ -30,7 +46,7 @@ namespace Proiect_Teste_Cultura_Generala
             SvgButton[] svgButtons = { svgButton1, svgButton2, svgButton3, svgButton4, svgButton5, svgButton6, svgButton7, svgButton8, svgButton9 };
             for (int i = 0; i < 9; i++)
             {
-                if (clicked[i] == true)
+                if (isClicked[i] == true)
                     if (_answersArray[i] <2)
                 {
                     svgButtons[i].BackColor = Color.Red;
@@ -52,14 +68,14 @@ namespace Proiect_Teste_Cultura_Generala
         private void Buttons_Click(int i)
         {
             GridQuestions grid = new GridQuestions(_answersArray,i);
-            if (clicked[i] == false)
+            if (isClicked[i] == false)
             {
                 grid.Owner = this;
                 grid.Show();
                 this.Hide();
-                clicked[i] = true;
+                isClicked[i] = true;
             }
-            if (GridQuestions.aux[i] == true)
+            if (GridQuestions.isAux[i] == true)
             {
                 MessageBox.Show("Ai rezolvat deja acest chestionar!");
             }
