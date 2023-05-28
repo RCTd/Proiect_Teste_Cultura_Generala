@@ -7,8 +7,6 @@ namespace UnitTestProject
     public class UnitTest1
     {
         [TestMethod]
-        //testare ca username-ul si parola sunt corecte
-        //colorare corecta in functie de scor
         public void TestMethod1()
         {
         }

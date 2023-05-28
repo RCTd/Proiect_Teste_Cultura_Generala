@@ -48,44 +48,53 @@ namespace UIProiectIP
         {
             
             String username, parola;
-            username = txt_username.Text;
-            parola=txt_parola.Text;
-            try
+            if(txt_username.Text != "" && txt_parola.Text != "")
             {
-                String querry ="SELECT * FROM Login_pass WHERE username = '"+txt_username.Text+"' AND parola = '"+txt_parola.Text+"'";
-                SqlDataAdapter sda = new SqlDataAdapter(querry, _conn);
-                DataTable dtable=new DataTable();
-                sda.Fill(dtable);
-
-                if(dtable.Rows.Count > 0 )
+                username = txt_username.Text;
+                parola = txt_parola.Text;
+                try
                 {
-                    username = txt_username.Text;
-                    parola = txt_parola.Text;
+                    String querry = "SELECT * FROM Login_pass WHERE username = '" + txt_username.Text + "' AND parola = '" + txt_parola.Text + "'";
+                    SqlDataAdapter sda = new SqlDataAdapter(querry, _conn);
+                    DataTable dtable = new DataTable();
+                    sda.Fill(dtable);
 
-                    Map mod = new Map();
-                    mod.Owner = this;
-                    mod.Show();
-                    this.Hide();
-            
+                    if (dtable.Rows.Count > 0)
+                    {
+                        username = txt_username.Text;
+                        parola = txt_parola.Text;
+
+                        Map mod = new Map();
+                        mod.Owner = this;
+                        mod.Show();
+                        this.Hide();
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Parola sau Username gresite sau nu ai cont");
+                        txt_username.Clear();
+                        txt_parola.Clear();
+                    }
+
                 }
-                else
+                catch
                 {
-                    MessageBox.Show("Parola sau Username gresite sau nu ai cont");
-                    txt_username.Clear();
-                    txt_parola.Clear();
+                    MessageBox.Show("Eroare, contactati administratorul");
+                }
+                finally
+                {
+                    _conn.Close();
                 }
 
             }
-            catch
+            else
             {
-                MessageBox.Show("Eroare, contactati administratorul");
+                MessageBox.Show("Completeaza username-ul si parola");
+                //throw new Exception("camp gol");
             }
-            finally
-            {
-                _conn.Close();
-            }
-            
-            
+
+
         }
         /// <summary>
         /// Functia de inscriere a unui nou utilizator in baza de date 
@@ -125,6 +134,10 @@ namespace UIProiectIP
             Help.ShowHelp(this, "../../Resources/Conquistador.chm");
         }
 
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
     }
 
 }

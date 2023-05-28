@@ -34,6 +34,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.txt_parola = new System.Windows.Forms.TextBox();
             this.buttonSingUp = new System.Windows.Forms.Button();
+            this.buttonExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt_username
@@ -110,6 +111,22 @@
             this.buttonSingUp.UseVisualStyleBackColor = false;
             this.buttonSingUp.Click += new System.EventHandler(this.buttonSingUp_Click);
             // 
+            // buttonExit
+            // 
+            this.buttonExit.BackColor = System.Drawing.Color.Black;
+            this.buttonExit.FlatAppearance.BorderSize = 0;
+            this.buttonExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonExit.ForeColor = System.Drawing.SystemColors.Window;
+            this.buttonExit.Location = new System.Drawing.Point(714, 12);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(71, 29);
+            this.buttonExit.TabIndex = 8;
+            this.buttonExit.Text = "Exit";
+            this.buttonExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -117,6 +134,7 @@
             this.BackgroundImage = global::Proiect_Teste_Cultura_Generala.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(797, 466);
+            this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonSingUp);
             this.Controls.Add(this.txt_parola);
             this.Controls.Add(this.button2);
@@ -138,6 +156,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txt_parola;
         private System.Windows.Forms.Button buttonSingUp;
+        private System.Windows.Forms.Button buttonExit;
     }
 }
 
