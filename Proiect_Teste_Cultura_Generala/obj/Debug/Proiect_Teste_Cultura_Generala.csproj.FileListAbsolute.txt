@@ -54,6 +54,8 @@ D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\De
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\System.Memory.dll
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\System.Numerics.Vectors.dll
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\UnitTestProject.dll
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\Questions.pdb
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\SvgData.pdb
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\Fizzler.pdb
@@ -62,8 +64,10 @@ D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\De
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\System.Memory.xml
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\System.Numerics.Vectors.xml
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\obj\Debug\Proiect_Teste_Cultura_Generala.csproj.CopyComplete
-D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\UnitTestProject.dll
-D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\UnitTestProject.pdb
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\obj\Debug\Proiect_Teste_Cultura_Generala.csproj.CopyComplete
+C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\UnitTestProject.dll
+C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\UnitTestProject.pdb
+C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml

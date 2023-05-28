@@ -17,13 +17,6 @@
 
 using Proiect_Teste_Cultura_Generala;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Data.SqlClient;
@@ -36,7 +29,7 @@ namespace UIProiectIP
         {
             InitializeComponent();
         }
-        SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
+        //SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
 
         /// <summary>
         /// Logica de verificare a existentei unui utilizator in baza de date 
@@ -103,7 +96,7 @@ namespace UIProiectIP
         /// <param name="e"></param>
         private void buttonSingUp_Click(object sender, EventArgs e)
         {
-            try
+            /*try
             {
                 String InsertQuerry = "Insert into Login_pass(username,parola)Values('" + txt_username.Text + "','" + txt_parola.Text + "')";
                 _conn.Open();
@@ -121,7 +114,7 @@ namespace UIProiectIP
             finally
             {
                 _conn.Close();
-            }
+            }*/
 
         }
         /// <summary>

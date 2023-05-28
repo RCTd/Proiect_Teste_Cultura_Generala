@@ -46,7 +46,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton1.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton1.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton1.BorderSize = 0;
             this.svgButton1.FlatAppearance.BorderSize = 0;
             this.svgButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton1.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -66,7 +65,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton2.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton2.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton2.BorderSize = 0;
             this.svgButton2.FlatAppearance.BorderSize = 0;
             this.svgButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton2.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -86,7 +84,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton3.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton3.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton3.BorderSize = 0;
             this.svgButton3.FlatAppearance.BorderSize = 0;
             this.svgButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton3.Font = new System.Drawing.Font("Pristina", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -107,7 +104,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton4.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton4.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton4.BorderSize = 0;
             this.svgButton4.FlatAppearance.BorderSize = 0;
             this.svgButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton4.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -127,7 +123,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton5.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton5.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton5.BorderSize = 0;
             this.svgButton5.FlatAppearance.BorderSize = 0;
             this.svgButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton5.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -147,7 +142,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton6.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton6.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton6.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton6.BorderSize = 0;
             this.svgButton6.FlatAppearance.BorderSize = 0;
             this.svgButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton6.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -167,7 +161,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton7.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton7.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton7.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton7.BorderSize = 0;
             this.svgButton7.FlatAppearance.BorderSize = 0;
             this.svgButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton7.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -187,7 +180,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton8.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton8.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton8.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton8.BorderSize = 0;
             this.svgButton8.FlatAppearance.BorderSize = 0;
             this.svgButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton8.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -207,7 +199,6 @@ namespace Proiect_Teste_Cultura_Generala
             this.svgButton9.BackColor = System.Drawing.Color.SaddleBrown;
             this.svgButton9.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton9.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.svgButton9.BorderSize = 0;
             this.svgButton9.FlatAppearance.BorderSize = 0;
             this.svgButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.svgButton9.Font = new System.Drawing.Font("Pristina", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
