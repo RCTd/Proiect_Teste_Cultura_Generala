@@ -37,7 +37,14 @@ namespace SvgData
 
         public SvgData(in string filename)
         {
-            Parse(filename);
+            try
+            {
+                Parse(filename);
+            }
+            catch
+            {
+                throw new Exception("Eroare la incarcarea resurselor svg");
+            }
         }
 
         /// <summary>

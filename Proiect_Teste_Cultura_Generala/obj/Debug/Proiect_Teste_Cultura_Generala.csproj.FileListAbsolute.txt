@@ -67,3 +67,7 @@ D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\De
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\UnitTestProject.pdb
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\FACULTATE\Anul3\Semestrul2\IP\ProiectIP\Proiect_Teste_Cultura_Generala\obj\Debug\Proiect_Teste_Cultura_Generala.csproj.CopyComplete
+C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\UnitTestProject.dll
+C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\UnitTestProject.pdb
+C:\Users\Rafael\source\repos\Proiect_ConQUIZtador\Proiect_Teste_Cultura_Generala\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml

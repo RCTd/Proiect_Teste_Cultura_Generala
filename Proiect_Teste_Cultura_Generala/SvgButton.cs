@@ -74,25 +74,31 @@ namespace Proiect_Teste_Cultura_Generala
             this.Size = new Size(176, 152);
             this.BackColor = Color.MediumSlateBlue;
             this.ForeColor = Color.White;
-            //this.Resize += new EventHandler(Button_Resize);
         }
 
 
         //Methods
         private GraphicsPath GetFigurePath(Rectangle rect)
         {
-            SvgData.SvgData SVGData = new SvgData.SvgData(_svgfilename);
-            GraphicsPath path = SVGData.GetGraphicsPath();
-            // Scale the GraphicsPath to fit the desired size
-            float scaleX = (float)rect.Width / (SVGData.GetWidth() * 10f);
-            float scaleY = -(float)rect.Height / (SVGData.GetHeight() * 10f);
-            Matrix scaleMatrix = new Matrix();
-            scaleMatrix.Translate(0, rect.Height);
-            scaleMatrix.Scale(scaleX, scaleY);
+            try
+            {
+                SvgData.SvgData SVGData = new SvgData.SvgData(_svgfilename);
+                GraphicsPath path = SVGData.GetGraphicsPath();
+                // Scale the GraphicsPath to fit the desired size
+                float scaleX = (float)rect.Width / (SVGData.GetWidth() * 10f);
+                float scaleY = -(float)rect.Height / (SVGData.GetHeight() * 10f);
+                Matrix scaleMatrix = new Matrix();
+                scaleMatrix.Translate(0, rect.Height);
+                scaleMatrix.Scale(scaleX, scaleY);
 
-            path.Transform(scaleMatrix);
+                path.Transform(scaleMatrix);
 
-            return path;
+                return path;
+            }catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                return new GraphicsPath();
+            }
         }
 
         protected override void OnPaint(PaintEventArgs pevent)

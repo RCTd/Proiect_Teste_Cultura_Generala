@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
@@ -54,6 +55,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Proiect_Teste_Cultura_Generala\Proiect_Teste_Cultura_Generala.csproj">
+      <Project>{11f65faf-d588-4738-a630-4d639b47e981}</Project>
+      <Name>Proiect_Teste_Cultura_Generala</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Questions\Questions\Questions.csproj">
+      <Project>{90361b2a-7505-429a-b011-f4e8fa37e554}</Project>
+      <Name>Questions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SvgData\SvgData.csproj">
+      <Project>{5dc41698-3392-4c74-9a31-e4cf5e8b1139}</Project>
+      <Name>SvgData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Grid_Questions.txt" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
