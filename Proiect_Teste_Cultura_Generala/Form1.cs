@@ -1,7 +1,7 @@
 ﻿/**************************************************************************
  *                                                                        *
  *  File:        Form1.cs                                                 *
- *  Copyright:   (c) 2023,                                                *
+ *  Copyright:   (c) 2023, Echipa 18                                      *
  *  Description:  Joc de cultura generala "conQUIZtador"                  *
  *                                                                        *
  *                                                                        *
@@ -35,7 +35,7 @@ namespace UIProiectIP
         {
             InitializeComponent();
         }
-        //SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
+        SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
 
 
         private void button_Start(object sender, EventArgs e)
@@ -46,7 +46,7 @@ namespace UIProiectIP
             parola=txt_parola.Text;
             try
             {
-                /*String querry ="SELECT * FROM Login_pass WHERE username = '"+txt_username.Text+"' AND parola = '"+txt_parola.Text+"'";
+                String querry ="SELECT * FROM Login_pass WHERE username = '"+txt_username.Text+"' AND parola = '"+txt_parola.Text+"'";
                 SqlDataAdapter sda = new SqlDataAdapter(querry, _conn);
                 DataTable dtable=new DataTable();
                 sda.Fill(dtable);
@@ -54,7 +54,7 @@ namespace UIProiectIP
                 if(dtable.Rows.Count > 0 )
                 {
                     username = txt_username.Text;
-                    parola = txt_parola.Text;*/
+                    parola = txt_parola.Text;
 
                     //incarca formul urmator
                     //Map form2 = new Map();
@@ -65,30 +65,30 @@ namespace UIProiectIP
                     mod.Show();
                     this.Hide();
             
-               /* }
+                }
                 else
                 {
                     MessageBox.Show("Parola sau Username gresite sau nu ai cont");
                     //txt_username.Clear();
                     //txt_parola.Clear();
                 }
-*/
+
             }
             catch
             {
                 MessageBox.Show("Eroare, contactati administratorul");
             }
-            /*finally
+            finally
             {
                 _conn.Close();
-            }*/
+            }
             
             
         }
 
         private void buttonSingUp_Click(object sender, EventArgs e)
         {
-            /*try
+            try
             {
                 String InsertQuerry = "Insert into Login_pass(username,parola)Values('" + txt_username.Text + "','" + txt_parola.Text + "')";
                 _conn.Open();
@@ -107,17 +107,12 @@ namespace UIProiectIP
             {
                 _conn.Close();
             }
-*/
+
         }
 
         private void buttonHelp(object sender, EventArgs e)
         {
             Help.ShowHelp(this, "../../Resources/Conquistador.chm");
-        }
-
-        private void button_Scor(object sender, EventArgs e)
-        {
-
         }
 
         private void Form1_Load(object sender, EventArgs e)

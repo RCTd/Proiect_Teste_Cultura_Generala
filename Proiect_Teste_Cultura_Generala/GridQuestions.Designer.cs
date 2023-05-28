@@ -40,7 +40,7 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // QuestTextBox
             // 
-            this.QuestTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.QuestTextBox.BackColor = System.Drawing.Color.SteelBlue;
             this.QuestTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.QuestTextBox.Font = new System.Drawing.Font("Century", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QuestTextBox.Location = new System.Drawing.Point(107, 28);
@@ -106,7 +106,7 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.answer2);
             this.Controls.Add(this.answer4);

@@ -43,8 +43,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton1
             // 
-            this.svgButton1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton1.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton1.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton1.BorderSize = 0;
             this.svgButton1.FlatAppearance.BorderSize = 0;
@@ -63,8 +63,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton2
             // 
-            this.svgButton2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton2.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton2.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton2.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton2.BorderSize = 0;
             this.svgButton2.FlatAppearance.BorderSize = 0;
@@ -83,8 +83,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton3
             // 
-            this.svgButton3.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton3.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton3.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton3.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton3.BorderSize = 0;
             this.svgButton3.FlatAppearance.BorderSize = 0;
@@ -104,8 +104,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton4
             // 
-            this.svgButton4.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton4.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton4.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton4.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton4.BorderSize = 0;
             this.svgButton4.FlatAppearance.BorderSize = 0;
@@ -124,8 +124,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton5
             // 
-            this.svgButton5.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton5.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton5.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton5.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton5.BorderSize = 0;
             this.svgButton5.FlatAppearance.BorderSize = 0;
@@ -144,8 +144,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton6
             // 
-            this.svgButton6.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton6.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton6.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton6.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton6.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton6.BorderSize = 0;
             this.svgButton6.FlatAppearance.BorderSize = 0;
@@ -164,8 +164,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton7
             // 
-            this.svgButton7.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton7.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton7.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton7.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton7.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton7.BorderSize = 0;
             this.svgButton7.FlatAppearance.BorderSize = 0;
@@ -184,8 +184,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton8
             // 
-            this.svgButton8.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton8.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton8.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton8.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton8.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton8.BorderSize = 0;
             this.svgButton8.FlatAppearance.BorderSize = 0;
@@ -204,8 +204,8 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // svgButton9
             // 
-            this.svgButton9.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.svgButton9.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+            this.svgButton9.BackColor = System.Drawing.Color.SaddleBrown;
+            this.svgButton9.BackgroundColor = System.Drawing.Color.SaddleBrown;
             this.svgButton9.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.svgButton9.BorderSize = 0;
             this.svgButton9.FlatAppearance.BorderSize = 0;
@@ -224,18 +224,25 @@ namespace Proiect_Teste_Cultura_Generala
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Silver;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(18, 433);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(86, 30);
             this.button1.TabIndex = 11;
             this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Map
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(725, 475);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.svgButton1);

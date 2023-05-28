@@ -154,6 +154,8 @@
   <ItemGroup>
     <Content Include="bin\Debug\Proiect_Teste_Cultura_Generala.exe" />
     <Content Include="bin\Debug\Proiect_Teste_Cultura_Generala.pdb" />
+    <None Include="Resources\305035589_454315923418540_6889406175603384188_n.jpg" />
+    <None Include="Resources\Background.png" />
     <Content Include="Resources\Buttons\BWSVG\Layer1.svg" />
     <Content Include="Resources\Buttons\BWSVG\Layer2.svg" />
     <Content Include="Resources\Buttons\BWSVG\Layer3.svg" />
@@ -163,6 +165,7 @@
     <Content Include="Resources\Buttons\BWSVG\Layer7.svg" />
     <Content Include="Resources\Buttons\BWSVG\Layer8.svg" />
     <Content Include="Resources\Buttons\BWSVG\Layer9.svg" />
+    <None Include="Resources\wallpaper.png" />
     <None Include="Resources\Conquistador.chm" />
     <None Include="Resources\final.jpg" />
     <Content Include="Resources\Grid_Questions.txt" />
