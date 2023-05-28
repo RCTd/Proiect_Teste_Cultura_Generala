@@ -57,6 +57,11 @@ namespace Proiect_Teste_Cultura_Generala
             NewQuestion();
         }
 
+        /// <summary>
+        /// Urmatoarele functii sunt pentru verificarea fiecarui raspuns in cazul in care e apasat
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void answear1_Click(object sender, EventArgs e)
         {
             CheckAnswer(answer1);
