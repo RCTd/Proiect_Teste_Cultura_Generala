@@ -16,12 +16,8 @@
 
 using Svg;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace SvgData
@@ -44,6 +40,10 @@ namespace SvgData
             Parse(filename);
         }
 
+        /// <summary>
+        /// functie de convertire a unui SvgPath la GraphicsPath
+        /// </summary>
+        /// <returns></returns>
         public void Parse(in string filename)
         {
             // Replace "example.svg" with the path to your SVG file
@@ -78,6 +78,10 @@ namespace SvgData
             }
         }
 
+        /// <summary>
+        /// functie de preluare a comenzilor de desenare svg
+        /// </summary>
+        /// <returns></returns>
         public char[] GetCommands()
         {
             return _svgCommands;

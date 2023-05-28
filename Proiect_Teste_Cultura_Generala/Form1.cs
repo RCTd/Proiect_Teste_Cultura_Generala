@@ -17,13 +17,6 @@
 
 using Proiect_Teste_Cultura_Generala;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Data.SqlClient;
@@ -36,7 +29,7 @@ namespace UIProiectIP
         {
             InitializeComponent();
         }
-        SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
+        //SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
 
         /// <summary>
         /// Logica de verificare a existentei unui utilizator in baza de date 
@@ -50,7 +43,7 @@ namespace UIProiectIP
             String username, parola;
             username = txt_username.Text;
             parola=txt_parola.Text;
-            try
+            /*try
             {
                 String querry ="SELECT * FROM Login_pass WHERE username = '"+txt_username.Text+"' AND parola = '"+txt_parola.Text+"'";
                 SqlDataAdapter sda = new SqlDataAdapter(querry, _conn);
@@ -61,12 +54,12 @@ namespace UIProiectIP
                 {
                     username = txt_username.Text;
                     parola = txt_parola.Text;
-
+            */
                     Map mod = new Map();
                     mod.Owner = this;
                     mod.Show();
                     this.Hide();
-            
+            /*
                 }
                 else
                 {
@@ -83,7 +76,7 @@ namespace UIProiectIP
             finally
             {
                 _conn.Close();
-            }
+            }*/
             
             
         }
@@ -94,7 +87,7 @@ namespace UIProiectIP
         /// <param name="e"></param>
         private void buttonSingUp_Click(object sender, EventArgs e)
         {
-            try
+            /*try
             {
                 String InsertQuerry = "Insert into Login_pass(username,parola)Values('" + txt_username.Text + "','" + txt_parola.Text + "')";
                 _conn.Open();
@@ -112,7 +105,7 @@ namespace UIProiectIP
             finally
             {
                 _conn.Close();
-            }
+            }*/
 
         }
         /// <summary>
@@ -125,6 +118,10 @@ namespace UIProiectIP
             Help.ShowHelp(this, "../../Resources/Conquistador.chm");
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

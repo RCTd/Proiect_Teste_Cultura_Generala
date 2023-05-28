@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions", "Questions\Ques
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgData", "SvgData\SvgData.csproj", "{5DC41698-3392-4C74-9A31-E4CF5E8B1139}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{24BBD387-C9EB-44B3-8FD7-881A80404083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5DC41698-3392-4C74-9A31-E4CF5E8B1139}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DC41698-3392-4C74-9A31-E4CF5E8B1139}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DC41698-3392-4C74-9A31-E4CF5E8B1139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BBD387-C9EB-44B3-8FD7-881A80404083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BBD387-C9EB-44B3-8FD7-881A80404083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BBD387-C9EB-44B3-8FD7-881A80404083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BBD387-C9EB-44B3-8FD7-881A80404083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

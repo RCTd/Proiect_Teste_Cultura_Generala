@@ -19,36 +19,24 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
-using Svg;
 
 namespace Proiect_Teste_Cultura_Generala
 {
     public class SvgButton : Button
     {
         //Fields
-        private int borderSize = 0;
-        private string svgfilename = "../../Resources/Buttons/BWSVGbn/Layer1.svg";
-        private Color borderColor = Color.PaleVioletRed;
+        private string _svgfilename = "../../Resources/Buttons/BWSVGbn/Layer1.svg";
+        private Color _borderColor = Color.PaleVioletRed;
         
 
         //Properties
         [Category("Svg Button")]
-        public int BorderSize
-        {
-            get { return borderSize; }
-            set
-            {
-                borderSize = value;
-                this.Invalidate();
-            }
-        }
-        [Category("Svg Button")]
         public string Svgfilename
         {
-            get { return svgfilename; }
+            get { return _svgfilename; }
             set
             {
-                svgfilename = value;
+                _svgfilename = value;
                 this.Invalidate();
             }
         }
@@ -56,10 +44,10 @@ namespace Proiect_Teste_Cultura_Generala
         [Category("Svg Button")]
         public Color BorderColor
         {
-            get { return borderColor; }
+            get { return _borderColor; }
             set
             {
-                borderColor = value;
+                _borderColor = value;
                 this.Invalidate();
             }
         }
@@ -93,7 +81,7 @@ namespace Proiect_Teste_Cultura_Generala
         //Methods
         private GraphicsPath GetFigurePath(Rectangle rect)
         {
-            SvgData.SvgData SVGData = new SvgData.SvgData(svgfilename);
+            SvgData.SvgData SVGData = new SvgData.SvgData(_svgfilename);
             GraphicsPath path = SVGData.GetGraphicsPath();
             // Scale the GraphicsPath to fit the desired size
             float scaleX = (float)rect.Width / (SVGData.GetWidth() * 10f);
