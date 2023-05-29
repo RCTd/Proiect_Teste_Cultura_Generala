@@ -25,7 +25,7 @@ namespace Proiect_Teste_Cultura_Generala
     public class SvgButton : Button
     {
         //Fields
-        private string _svgfilename = "../../Resources/Buttons/BWSVGbn/Layer1.svg";
+        private string _svgfilename = "";
         private Color _borderColor = Color.PaleVioletRed;
         
 
@@ -97,7 +97,7 @@ namespace Proiect_Teste_Cultura_Generala
             }catch (Exception e)
             {
                 MessageBox.Show(e.Message);
-                return new GraphicsPath();
+                throw (e);
             }
         }
 

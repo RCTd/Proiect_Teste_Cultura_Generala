@@ -48,9 +48,9 @@ namespace Proiect_Teste_Cultura_Generala
             {
                 if (isClicked[i] == true)
                     if (_answersArray[i] <2)
-                {
-                    svgButtons[i].BackColor = Color.Red;
-                }
+                    {
+                        svgButtons[i].BackColor = Color.Red;
+                    }
                     else
                     {
                         if (_answersArray[i] <=4)

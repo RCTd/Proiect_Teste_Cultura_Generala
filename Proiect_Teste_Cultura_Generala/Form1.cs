@@ -109,8 +109,6 @@ namespace UIProiectIP
             catch (SqlException ex) when (ex.Number == 2627)
             {
                 MessageBox.Show("Acest username nu este valabil, incercati altul! ");
-
-
             }
             finally
             {

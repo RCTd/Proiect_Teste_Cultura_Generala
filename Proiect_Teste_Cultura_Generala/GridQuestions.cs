@@ -81,6 +81,7 @@ namespace Proiect_Teste_Cultura_Generala
             CheckAnswer(answer4);
         }
 
+
         private void CheckAnswer(Button answer)
         {
             if (!isWaitflag)
