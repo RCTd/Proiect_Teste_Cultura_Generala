@@ -51,6 +51,7 @@ namespace Proiect_Teste_Cultura_Generala
             this.QuestTextBox.TabIndex = 4;
             this.QuestTextBox.Text = "Question";
             this.QuestTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.QuestTextBox.TextChanged += new System.EventHandler(this.QuestTextBox_TextChanged);
             // 
             // answer1
             // 

@@ -27,7 +27,7 @@ namespace Proiect_Teste_Cultura_Generala
         private delegate void SafeCallDelegate();
         private Question _q;
         private OrderIterator _i;
-        private int _pos;
+        private int _pos=0;
         private int _numQuestionsAnswered = 0;
         public  int numCorrectAnswers = 0;
         public bool isWaitflag = false;
@@ -139,6 +139,9 @@ namespace Proiect_Teste_Cultura_Generala
             isWaitflag = false;
         }
 
-        
+        private void QuestTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

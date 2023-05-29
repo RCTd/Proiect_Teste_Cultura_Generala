@@ -20,6 +20,7 @@ using System;
 using System.Windows.Forms;
 
 using System.Data.SqlClient;
+using System.Data;
 
 namespace UIProiectIP
 {
@@ -29,7 +30,7 @@ namespace UIProiectIP
         {
             InitializeComponent();
         }
-        //SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
+        SqlConnection _conn = new SqlConnection(@"Data Source=DESKTOP-8LL5B1N\SQLEXPRESS;Initial Catalog=ProiectIP;Integrated Security=True");
 
         /// <summary>
         /// Logica de verificare a existentei unui utilizator in baza de date 
@@ -96,7 +97,7 @@ namespace UIProiectIP
         /// <param name="e"></param>
         private void buttonSingUp_Click(object sender, EventArgs e)
         {
-            /*try
+            try
             {
                 String InsertQuerry = "Insert into Login_pass(username,parola)Values('" + txt_username.Text + "','" + txt_parola.Text + "')";
                 _conn.Open();
@@ -114,7 +115,7 @@ namespace UIProiectIP
             finally
             {
                 _conn.Close();
-            }*/
+            }
 
         }
         /// <summary>
@@ -130,6 +131,11 @@ namespace UIProiectIP
         private void buttonExit_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 
